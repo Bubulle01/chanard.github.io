@@ -4,8 +4,9 @@
     --spectralon: #fff;
     --vantablack: #000;
     --royalBlue: #3d58e1;
-    --lavender: #ba80da;
-    --scarlet: #ed2c46;
+    --lavender: #8542a8;
+    --lavenders:rgb(81, 13, 117);
+    --scarlet: #bd182e;
     --cerulean: #3d8ce0;
     --sapphire: #3621d4;
     --sectionBordRad: 47px;
@@ -28,8 +29,12 @@ header {
     text-align: center;
     align-items: center;
     background-color: var(--spectralon);
+    background: linear-gradient(180deg, var(--lavenders), var(--lavender));
     padding: 20px 0;
     margin-bottom: -1px;
+        border-radius: 70px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
 
     & > .iconeD {
         height: 200px;
@@ -53,7 +58,6 @@ header {
 }
 
 main {
-    background-color: #fff;
     position: relative;
     padding: 10px;
     border-radius: 70px;
@@ -70,6 +74,9 @@ footer {
     background-color: var(--vantablack);
     color: var(--spectralon);
     padding: 20px 0;
+    border-radius: 70px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
 
     & > .iconeD {
         align-self: flex-end;
@@ -125,6 +132,8 @@ h3 {
     & > img {
         width: 100%;
         margin: auto;
+        border-radius: 50px;
+        box-shadow: var(--shadow) 0 20px 30px;
     }
 }
 
@@ -153,11 +162,11 @@ img  {
 
 hr {
   border: none;
-  border-top: 10px double #333;
-  color: #333;
+  border-top: 10px double #ffffff;
+  color: #ffffff;
   overflow: visible;
   text-align: center;
-  height: 20px;
+  height: 40px;
   margin-top: 50px;
 }
 
@@ -166,4 +175,19 @@ hr::after {
   padding: 0 4px;
   position: relative;
   top: -13px;
+}
+
+.fond_ecran {
+    position: sticky;
+    top: 0px;
+    margin-bottom: -1000px;
+    filter: blur(1.5rem);
+    z-index: -5;
+    width: 100%;
+    height: auto;
+}
+
+.pp {
+    height: 120px;
+    margin: -50px auto;
 }
