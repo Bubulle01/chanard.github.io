@@ -141,6 +141,13 @@ img  {
     display: block;
 }
 
+.table {
+    width: 90%;
+    margin: 40px auto 80px auto;
+    border-radius: 50px;
+    box-shadow: var(--shadow) 0 20px 30px;
+}
+
 .foot {
     height: 30em;
 }
