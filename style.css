@@ -182,10 +182,10 @@ body > nav {
     }
 }
 
-@media screen and (min-width:769px) and (max-width:1024px) {
+@media screen and (min-width:0px) and (max-width:1024px) {
     .grid4 {
-        grid-template-columns: 50% 50%;
-        grid-auto-rows: 45vw;
+        grid-template-columns: 49% 49%;
+        grid-auto-rows: 41vw;
     }
 
     .grid2 {
