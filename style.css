@@ -308,7 +308,7 @@ hr::after {
     width: auto;
     max-width: 90%;
     height: clamp(60em, 50vw, 80em);
-    max-height: 90%;
+    max-height: 80%;
     object-fit: contain;
     object-position: center;
 }
