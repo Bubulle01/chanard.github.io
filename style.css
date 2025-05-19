@@ -178,7 +178,7 @@ body > nav {
         margin: auto;
         border-radius: 50px;
         box-shadow: var(--shadow) 0 20px 30px;
-        background-color: #19052c;
+        background-color: rgba(255, 255, 255, 0.137);
     }
 }
 
@@ -277,4 +277,37 @@ hr::after {
     float: right;
     margin-right: 70px;
     margin-top: -100px;
+}
+
+
+/* Pour l'affichage des image en zoomer */
+
+.smallThumb {
+    transition-duration:.1s;
+}
+
+.smallThumb:hover {
+    transform: scale(1.02);
+    cursor:pointer;
+}
+
+.modal {
+    display: none; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    width: auto;
+    max-width: 90%;
+    height: clamp(60em, 50vw, 80em);
+    object-fit: contain;
+    object-position: center;
 }
