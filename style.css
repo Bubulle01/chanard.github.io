@@ -47,6 +47,8 @@ header {
 
     & > .iconeG {
         width: 9%;
+        float: left;
+        transform: rotate(-10deg) translateX(clamp(2vw, 4vw, 5vw));
         margin-top: 2%;
     }
 }
