@@ -7,10 +7,31 @@
 		<link rel="stylesheet" type="text/css" href="style.css">
         <link rel="shortcut icon" type="image/x-icon" href="icone.ico">
         <title>Galerie de Chanard</title>
+
+        <script>
+			function changeFond() {
+                let id = 0;
+                
+                const list_fond = ["https://images.hive.blog/0x0/https://thumbs.gfycat.com/ScrawnyForkedHaddock-small.gif",
+                    "https://media.gifdb.com/anime-girl-dancing-498-x-280-gif-yb6wrlkmgym0ej6y.gif",
+                    "https://gifdb.com/images/high/anime-girl-dancing-498-x-280-gif-yb6wrlkmgym0ej6y.webp",
+                    "https://www.frandroid.com/wp-content/uploads/2014/05/adventure-time-gif.gif",
+                    "https://islandenpoche.net/images/aurora2.gif"
+                ];
+
+                id += 1;
+                /*fond.setAttribute("src", list_fond[id]);*/
+                document.getElementById('fondcran').style.src = list_fond[id];
+
+                document.getElementById("fondcran").addEventListener("click", () => {
+                    detailsToOpen.open = false;
+                });
+			}
+    	</script>
     </head>
     <body>
         <span>
-            <img class="fondcran" src="https://images.hive.blog/0x0/https://thumbs.gfycat.com/ScrawnyForkedHaddock-small.gif">
+            <img id="fondcran" class="fondcran" src="https://images.hive.blog/0x0/https://thumbs.gfycat.com/ScrawnyForkedHaddock-small.gif">
             <!-- 
                 danse Persona 5 = https://images.hive.blog/0x0/https://thumbs.gfycat.com/ScrawnyForkedHaddock-small.gif
                 Bunny danse = https://media.gifdb.com/anime-girl-dancing-498-x-280-gif-yb6wrlkmgym0ej6y.gif
@@ -35,7 +56,7 @@
         <div id="dessin"></div>
 
         <main>
-            <h2>Dessin de base : </h2>
+            <h2 class="titre">Dessin de base : </h2>
             <img class="table smallThumb" src="images\dessin_base\CHANARDrefshit.png">
             <div class="grid4">
                 <img class="smallThumb hauteur" src="images\dessin_base\arthurin.png">

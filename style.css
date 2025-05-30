@@ -59,6 +59,10 @@ main {
     border-radius: 70px;
     border-top-left-radius: 0;
     border-top-right-radius: 0;
+
+    & .titre {
+        margin-top: 90px;
+    }
 }
 
 footer {
