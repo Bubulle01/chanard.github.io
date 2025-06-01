@@ -7,44 +7,21 @@
 		<link rel="stylesheet" type="text/css" href="style.css">
         <link rel="shortcut icon" type="image/x-icon" href="icone.ico">
         <title>Galerie de Chanard</title>
-
-        <script>
-			function changeFond() {
-                let id = 0;
-                
-                const list_fond = ["https://images.hive.blog/0x0/https://thumbs.gfycat.com/ScrawnyForkedHaddock-small.gif",
-                    "https://media.gifdb.com/anime-girl-dancing-498-x-280-gif-yb6wrlkmgym0ej6y.gif",
-                    "https://gifdb.com/images/high/anime-girl-dancing-498-x-280-gif-yb6wrlkmgym0ej6y.webp",
-                    "https://www.frandroid.com/wp-content/uploads/2014/05/adventure-time-gif.gif",
-                    "https://islandenpoche.net/images/aurora2.gif"
-                ];
-
-                id += 1;
-                /*fond.setAttribute("src", list_fond[id]);*/
-                document.getElementById('fondcran').style.src = list_fond[id];
-
-                document.getElementById("fondcran").addEventListener("click", () => {
-                    detailsToOpen.open = false;
-                });
-			}
-    	</script>
     </head>
     <body>
         <span>
-            <img id="fondcran" class="fondcran" src="https://images.hive.blog/0x0/https://thumbs.gfycat.com/ScrawnyForkedHaddock-small.gif">
-            <!-- 
-                danse Persona 5 = https://images.hive.blog/0x0/https://thumbs.gfycat.com/ScrawnyForkedHaddock-small.gif
-                Bunny danse = https://media.gifdb.com/anime-girl-dancing-498-x-280-gif-yb6wrlkmgym0ej6y.gif
-                Zero Two Anime Girl Dancing = https://gifdb.com/images/high/anime-girl-dancing-498-x-280-gif-yb6wrlkmgym0ej6y.webp
-                Gunter dance = https://www.frandroid.com/wp-content/uploads/2014/05/adventure-time-gif.gif
-                Aurores boréales = https://islandenpoche.net/images/aurora2.gif
-            -->
+            <img id="imageid" class="fondcran fade-in" src="https://images.hive.blog/0x0/https://thumbs.gfycat.com/ScrawnyForkedHaddock-small.gif">
         </span>
 
         <nav>
-            <a href="#dessin"><button>Dessin</button></a>
-            <a href="#montage"><button>Montage</button></a>
-            <a href="#fondecran"><button>Fond</button></a>
+            <div>
+                <a href="#dessin"><button>Dessin</button></a>
+                <a href="#montage"><button>Montage</button></a>
+                <a href="#fondecran"><button>Fond</button></a>
+            </div>
+            <button id="buttonchange">
+                <img id="rotateButton" src="images\arrangement\fleche.png" alt="Changer d'Image" style="width: 50px; height: 50px;">
+            </button>
         </nav>
 
         <header>
@@ -72,6 +49,7 @@
             <hr>
             <h2>Montage : </h2>
             <div class="grid4">
+                <img class="smallThumb hauteur" src="images\Choy.png">
                 <img class="smallThumb hauteur" src="images\Chashley.png">
                 <img class="smallThumb hauteur" src="images\chuneko.png">
                 <img class="smallThumb largeur lowQuality" src="images\chassette.png">
@@ -331,5 +309,34 @@
             <script src="imageModale.js"></script>
         </div>
 
+        <script>
+            let id = 0;
+            let list_fond = [
+                "https://images.hive.blog/0x0/https://thumbs.gfycat.com/ScrawnyForkedHaddock-small.gif",    /* danse Persona 5 */
+                "https://gifdb.com/images/high/anime-girl-dancing-498-x-280-gif-yb6wrlkmgym0ej6y.webp",     /* Zero Two Anime Girl Dancing */
+                "https://www.frandroid.com/wp-content/uploads/2014/05/adventure-time-gif.gif",              /* Gunter dance */
+                "https://islandenpoche.net/images/aurora2.gif",                                             /* Aurores boréales */
+                "https://i.pinimg.com/originals/d3/27/4a/d3274a4bcdf3652e8a98a8e054686cd4.gif"              /* Jojo */
+            ];
+
+            document.getElementById("buttonchange").onclick = function() {
+            const image = document.getElementById("imageid");
+            const button = document.getElementById("rotateButton");
+
+            // Ajouter la classe fade-out pour faire le fondu  
+            image.classList.remove("fade-in");
+            image.classList.add("fade-out");
+
+            // Ajouter la classe pour faire la rotation  
+            button.classList.toggle("rotate");
+
+            setTimeout(() => {
+                id = (id + 1) % list_fond.length; // revient à 0 à la fin  
+                image.src = list_fond[id]; // Changer la source de l'image  
+                image.classList.remove("fade-out"); // Retirer la classe pour faire réapparaître l'image  
+                image.classList.add("fade-in");
+            }, 500); // Correspond à la durée de la transition (500ms)
+        }
+        </script>
     </body>
 </html>
