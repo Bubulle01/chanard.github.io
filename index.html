@@ -322,12 +322,12 @@
 
         <script>
             let id = 0;
-            let list_fond = [
-                "https://images.hive.blog/0x0/https://thumbs.gfycat.com/ScrawnyForkedHaddock-small.gif",    /* danse Persona 5 */
-                "https://gifdb.com/images/high/anime-girl-dancing-498-x-280-gif-yb6wrlkmgym0ej6y.webp",     /* Zero Two Anime Girl Dancing */
-                "https://www.frandroid.com/wp-content/uploads/2014/05/adventure-time-gif.gif",              /* Gunter dance */
-                "https://islandenpoche.net/images/aurora2.gif",                                             /* Aurores boréales */
-                "https://i.pinimg.com/originals/d3/27/4a/d3274a4bcdf3652e8a98a8e054686cd4.gif"              /* Jojo */
+            let list_fond2 = [
+                "images/gif_fond/Danse_Persona5.gif",
+                "images/gif_fond/Zero_Two_Anime_Girl_Dancing.webp",     
+                "images/gif_fond/adventure_time.gif",              
+                "images/gif_fond/Aurores_boreales.gif",                                             
+                "images/gif_fond/Jojo.gif"              
             ];
 
             document.getElementById("buttonchange").onclick = function() {
@@ -342,8 +342,8 @@
             button.classList.toggle("rotate");
 
             setTimeout(() => {
-                id = (id + 1) % list_fond.length; // revient à 0 à la fin  
-                image.src = list_fond[id]; // Changer la source de l'image  
+                id = (id + 1) % list_fond2.length; // revient à 0 à la fin  
+                image.src = list_fond2[id]; // Changer la source de l'image  
                 image.classList.remove("fade-out"); // Retirer la classe pour faire réapparaître l'image  
                 image.classList.add("fade-in");
             }, 500); // Correspond à la durée de la transition (500ms)
