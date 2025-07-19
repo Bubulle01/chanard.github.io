@@ -142,7 +142,7 @@ button {
     background-color: var(--spectralon);
     color: var(--vantablack);
     height: clamp(30px, 7vw, 50px);
-    width: clamp(80px, 13vw, 150px);
+    width: clamp(80px, 15vw, 150px);
     border-radius: 25px;
     font-size: clamp(20px, 4vw, 35px);
     border: 0;
@@ -165,7 +165,7 @@ body > nav {
     align-items: center;
     background: linear-gradient(180deg, var(--lavender), var(--lavenders));
     margin: 0px;
-    padding: 15px 30px;
+    padding: 15px clamp(0px, 1vw, 25px);
     box-shadow: var(--shadow) 0 20px 30px;
     position: sticky;
     top: 0;
@@ -188,18 +188,28 @@ body > nav {
         }
 
         & button {
-            margin: 0px 20px;
+            margin: 0px clamp(0px, 1vw, 15px);
         }
     }
 }
 
-@media (max-width: 560px) {
-
-    body > nav > div:first-child {
-        flex-direction: column; /* en colonne */
-    }
+#buttonchange {
+    border-radius: 55px!important;
+    height: 55px;
+    width: auto;
 }
 
+@media (max-width: 440px) {
+    body > nav > div:nth-child(2) > * {
+        height: 45px!important;
+        width: auto!important;
+    }
+
+    #buttonchange > * {
+        height: 45px!important;
+        width: auto!important;
+    }
+}
 
 
 .grid4 {
@@ -347,11 +357,6 @@ hr::after {
     margin-top: -100px;
 }
 
-#buttonchange {
-    border-radius: 55px!important;
-    height: 55px!important;
-    width: auto;
-}
 
 /* Pour l'affichage des image en zoomer */
 
