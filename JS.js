@@ -51,6 +51,7 @@ thumbnails.forEach(smallThumb => {
     }
 
     smallThumb.addEventListener("click", () => {
+        bloquerScroll();
         console.log("thumb clicked", nameFichier(smallThumb.src));
         if (smallThumb.classList.contains("favori_image")) {
             fav.src = "images/arrangement/etoile_gold.png"; 
@@ -86,12 +87,14 @@ thumbnails.forEach(smallThumb => {
 
 closeBtn.addEventListener("click", () => {
     modal.style.display = "none";
+    debloquerScroll();
 });
 
 // Close modal when clicking outside the image
 modal.addEventListener("click", (event) => {
     if ((event.target === modal) || (event.target === retour)) {
         modal.style.display = "none";
+        debloquerScroll();
     }
 });
 
@@ -179,6 +182,16 @@ function afficherFavoris() {
 function viderFavoris() {
     localStorage.setItem("favoris", JSON.stringify([]));
     console.log("fav vidés");
+}
+
+// Bloque le scroll
+function bloquerScroll() {
+  document.body.style.overflow = "hidden";
+}
+
+// Réactive le scroll
+function debloquerScroll() {
+  document.body.style.overflow = "";
 }
 
 viderFavoris();
