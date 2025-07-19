@@ -319,35 +319,5 @@
         <div>
             <script src="imageModale.js"></script>
         </div>
-
-        <script>
-            let id = 0;
-            let list_fond2 = [
-                "images/gif_fond/Danse_Persona5.gif",
-                "images/gif_fond/Zero_Two_Anime_Girl_Dancing.webp",     
-                "images/gif_fond/adventure_time.gif",              
-                "images/gif_fond/Aurores_boreales.gif",                                             
-                "images/gif_fond/Jojo.gif"              
-            ];
-
-            document.getElementById("buttonchange").onclick = function() {
-                const image = document.getElementById("imageid");
-                const button = document.getElementById("rotateButton");
-
-                // Ajouter la classe fade-out pour faire le fondu  
-                image.classList.remove("fade-in");
-                image.classList.add("fade-out");
-
-                // Ajouter la classe pour faire la rotation  
-                button.classList.toggle("rotate");
-
-                setTimeout(() => {
-                    id = (id + 1) % list_fond2.length; // revient à 0 à la fin  
-                    image.src = list_fond2[id]; // Changer la source de l'image  
-                    image.classList.remove("fade-out"); // Retirer la classe pour faire réapparaître l'image  
-                    image.classList.add("fade-in");
-                }, 500); // Correspond à la durée de la transition (500ms)
-            }
-        </script>
     </body>
 </html>
