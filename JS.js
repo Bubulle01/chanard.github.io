@@ -2,9 +2,11 @@ const modal = document.getElementById("imageModal");
 const modalImage = document.getElementById("modalImage");
 const retour = document.getElementById("retour");
 const fav = document.getElementById("fav");
+const favMenu = document.getElementById("favMenu");
 const livret = document.getElementById("livret");
 const closeBtn = document.querySelector(".closebtn");
 const thumbnails = document.querySelectorAll(".smallThumb");
+
 let favoris = JSON.parse(localStorage.getItem("favoris") || "[]");
 
 
@@ -70,6 +72,8 @@ thumbnails.forEach(smallThumb => {
                 fav.src = "images/arrangement/etoile_blanc.png";
                 supprimerFavori(nomFichier);
                 smallThumb.classList.remove("favori_image");
+
+                affFav(favMenu.src.endsWith("images/arrangement/etoileMenu_gold.png"));
             }
         }
     });
@@ -89,8 +93,15 @@ modal.addEventListener("click", (event) => {
 
 
 /* Système d'affichage des favori par le bouton menuFav */
-document.getElementById("fav").onclick = function() {
-
+document.getElementById("favMenu").onclick = function() {
+    if (favMenu.src.endsWith("images/arrangement/etoileMenu.png")) {
+        favMenu.src = "images/arrangement/etoileMenu_gold.png"; 
+        affFav(true);
+    }
+    else {
+        favMenu.src = "images/arrangement/etoileMenu.png"; 
+        affFav(false);
+    }
 }
 
 
@@ -98,6 +109,22 @@ document.getElementById("fav").onclick = function() {
 /*************************/
 /* FONCTIONS UTILITAIRES */
 /*************************/
+
+// Reset le roll Favori 
+function affFav(elem) {
+    if (elem) {
+        thumbnails.forEach(smallThumb => {
+            if (!smallThumb.classList.contains("favori_image")) {
+                smallThumb.style.display = "none"; 
+            }
+        });
+    }
+    else {
+        thumbnails.forEach(smallThumb => {
+            smallThumb.style.display = "block"; 
+        });
+    }
+}
 
 // Retourne le nom simple de l'image selectionné
 function nameFichier(elem) {
