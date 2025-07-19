@@ -5,6 +5,7 @@ const retour = document.getElementById("retour");
 const fav = document.getElementById("fav");
 const livret = document.getElementById("livret");
 const favMenu = document.getElementById("favMenu");
+const textFavNone = document.getElementById("textFavNone");
 
 const closeBtn = document.querySelector(".closebtn");
 
@@ -108,8 +109,6 @@ document.getElementById("favMenu").onclick = function() {
     }
 }
 
-
-
 /*************************/
 /* FONCTIONS UTILITAIRES */
 /*************************/
@@ -117,17 +116,22 @@ document.getElementById("favMenu").onclick = function() {
 // Reset le roll Favori page
 function affFav(elem) {
     if (elem) {
-
+        textFavNone.style.display = "block"; 
         favNone.forEach(truc => {
             truc.style.display = "none";
         });
 
         thumbnails.forEach(smallThumb => {
-            if (!smallThumb.classList.contains("favori_image")) {
                 smallThumb.style.display = "none"; 
+        });
+        thumbnails.forEach(smallThumb => {
+            if (smallThumb.classList.contains("favori_image")) {
+                smallThumb.style.display = "block"; 
+                textFavNone.style.display = "none"; 
             }
         });
     }
+
     else {
 
         favNone.forEach(truc => {
@@ -137,6 +141,8 @@ function affFav(elem) {
         thumbnails.forEach(smallThumb => {
             smallThumb.style.display = "block"; 
         });
+
+        textFavNone.style.display = "none"; 
     }
 }
 

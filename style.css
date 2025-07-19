@@ -119,6 +119,15 @@ h2 {
     margin: 15px;
 }
 
+#textFavNone {
+    display: none;
+    color: #fff;
+    font-style: normal;
+    font-size: clamp(45px, 7vw, 5em);
+    text-indent: 40px;
+    margin: 30px 15px;
+}
+
 h3 {
     color: #fff;
     font-size: clamp(20px, 3vw, 6em);
