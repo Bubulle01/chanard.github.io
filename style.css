@@ -161,8 +161,26 @@ body > nav {
     position: sticky;
     top: 0;
 
-    & div button {
-        margin: 0px 20px;
+    & div {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        & #favMenu {
+            width: 70px;
+            height: 60px;
+
+            &:hover {
+                transform: scale(1.10);
+                cursor:pointer;
+        }
+        }
+
+        & button {
+            margin: 0px 20px;
+        }
     }
 }
 
