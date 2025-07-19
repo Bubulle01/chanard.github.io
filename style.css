@@ -140,7 +140,7 @@ h3 {
 
 h5 {
     margin: 0;
-    font-size: clamp(15px, 3vw, 1em);
+    font-size: clamp(15px, 3vw, 1.5em);
     text-align: center;
 }
 
@@ -404,7 +404,7 @@ hr::after {
 
 .modal-content {
     width: auto;
-    max-width: 90%;
+    max-width: 80%;
     max-height: 80%;
     min-height: 60%;
     object-fit: contain;

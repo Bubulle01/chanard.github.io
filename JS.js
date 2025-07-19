@@ -6,6 +6,7 @@ const fav = document.getElementById("fav");
 const livret = document.getElementById("livret");
 const favMenu = document.getElementById("favMenu");
 const textFavNone = document.getElementById("textFavNone");
+const videFav = document.getElementById("videFav")
 
 const closeBtn = document.querySelector(".closebtn");
 
@@ -112,6 +113,13 @@ document.getElementById("favMenu").onclick = function() {
     }
 }
 
+videFav.addEventListener("click", function(event) {
+    event.preventDefault();
+    viderFavoris();
+    location.reload();
+});
+
+
 /*************************/
 /* FONCTIONS UTILITAIRES */
 /*************************/
@@ -193,5 +201,3 @@ function bloquerScroll() {
 function debloquerScroll() {
   document.body.style.overflow = "";
 }
-
-viderFavoris();
