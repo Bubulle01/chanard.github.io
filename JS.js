@@ -1,11 +1,15 @@
 const modal = document.getElementById("imageModal");
 const modalImage = document.getElementById("modalImage");
+
 const retour = document.getElementById("retour");
 const fav = document.getElementById("fav");
-const favMenu = document.getElementById("favMenu");
 const livret = document.getElementById("livret");
+const favMenu = document.getElementById("favMenu");
+
 const closeBtn = document.querySelector(".closebtn");
+
 const thumbnails = document.querySelectorAll(".smallThumb");
+const favNone = document.querySelectorAll(".favNone");
 
 let favoris = JSON.parse(localStorage.getItem("favoris") || "[]");
 
@@ -110,9 +114,14 @@ document.getElementById("favMenu").onclick = function() {
 /* FONCTIONS UTILITAIRES */
 /*************************/
 
-// Reset le roll Favori 
+// Reset le roll Favori page
 function affFav(elem) {
     if (elem) {
+
+        favNone.forEach(truc => {
+            truc.style.display = "none";
+        });
+
         thumbnails.forEach(smallThumb => {
             if (!smallThumb.classList.contains("favori_image")) {
                 smallThumb.style.display = "none"; 
@@ -120,6 +129,11 @@ function affFav(elem) {
         });
     }
     else {
+
+        favNone.forEach(truc => {
+            truc.style.display = "block";
+        });
+
         thumbnails.forEach(smallThumb => {
             smallThumb.style.display = "block"; 
         });
