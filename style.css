@@ -379,8 +379,8 @@ hr::after {
     margin: 20px;
 
     & > img {
-        height: 50%;
-        margin: 0 10px;
+        width: 30%!important;
+        margin: 0 20px;
 
         &:hover {
             transform: scale(1.10);

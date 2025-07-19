@@ -5,6 +5,7 @@ const fav = document.getElementById("fav");
 const livret = document.getElementById("livret");
 const closeBtn = document.querySelector(".closebtn");
 const thumbnails = document.querySelectorAll(".smallThumb");
+let favoris = JSON.parse(localStorage.getItem("favoris") || "[]");
 
 
 /* Système changement de fond d'écran */
@@ -38,12 +39,39 @@ document.getElementById("buttonchange").onclick = function() {
 /* Système de mise en avant des images */
 thumbnails.forEach(smallThumb => {
     console.log("click listener ->", smallThumb);
+    if (favoris.includes(nameFichier(smallThumb.src))) {
+        smallThumb.classList.add("favori_image");
+    }
+
     smallThumb.addEventListener("click", () => {
-        console.log("thumb clicked", smallThumb.src);
+        console.log("thumb clicked", nameFichier(smallThumb.src));
+        if (smallThumb.classList.contains("favori_image")) {
+            fav.src = "images/arrangement/etoile_gold.png"; 
+        }
+        else {
+            fav.src = "images/arrangement/etoile_blanc.png";
+        }
         modal.style.display = "flex";
         modalImage.src = smallThumb.src;
-
         console.log("thumb clicked");
+
+        
+        /* Système de stokage des fav avec "localStorage" */
+        document.getElementById("fav").onclick = function() {
+            const chemin = fav.src;
+            const nomFichier = nameFichier(modalImage.src);
+            if (chemin.endsWith("images/arrangement/etoile_blanc.png")) {
+               fav.src = "images/arrangement/etoile_gold.png"; 
+               ajouterFavori(nomFichier);
+               smallThumb.classList.add("favori_image");
+               afficherFavoris();
+            }
+            else {
+                fav.src = "images/arrangement/etoile_blanc.png";
+                supprimerFavori(nomFichier);
+                smallThumb.classList.remove("favori_image");
+            }
+        }
     });
 });
 
@@ -59,3 +87,51 @@ modal.addEventListener("click", (event) => {
 });
 
 
+
+/* Système d'affichage des favori par le bouton menuFav */
+document.getElementById("fav").onclick = function() {
+
+}
+
+
+
+/*************************/
+/* FONCTIONS UTILITAIRES */
+/*************************/
+
+// Retourne le nom simple de l'image selectionné
+function nameFichier(elem) {
+    return new URL(elem).pathname.split('/').pop();
+}
+
+// Ajouter un favori
+function ajouterFavori(item) {
+    let favoris = JSON.parse(localStorage.getItem("favoris") || "[]");
+    if (!favoris.includes(item)) {
+        favoris.push(item);
+        localStorage.setItem("favoris", JSON.stringify(favoris));
+        console.log("fav add : ", item);
+    }
+}
+
+// Supprimer un favori
+function supprimerFavori(item) {
+    let favoris = JSON.parse(localStorage.getItem("favoris") || "[]");
+    favoris = favoris.filter(f => f !== item);
+    localStorage.setItem("favoris", JSON.stringify(favoris));
+    console.log("fav remove : ", item);
+}
+
+// Afficher les favoris
+function afficherFavoris() {
+    let favoris = JSON.parse(localStorage.getItem("favoris") || "[]");
+    favoris.forEach(fav => console.log("Favori :", fav));
+}
+
+// Vide les favoris
+function viderFavoris() {
+    localStorage.setItem("favoris", JSON.stringify([]));
+    console.log("fav vidés");
+}
+
+viderFavoris();

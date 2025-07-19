@@ -5,3 +5,4 @@
 - Proposer un bouton header favori pour n'afficher que les favori
 - enregistrer les info favori dans les "cookies", genre dans la session. (ou sinon prévoir un système de compte)
 - proposer une barre de recherche dans le header, qui permet d'écrire nom de perso ou catégorie, et n'affiche que cela
+- ajouter un bouton musique et penser a une playlist
