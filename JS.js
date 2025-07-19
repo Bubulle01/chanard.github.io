@@ -63,7 +63,8 @@ thumbnails.forEach(smallThumb => {
         modal.style.display = "flex";
         modalImage.src = smallThumb.src;
         const nomFichier = nameFichier(modalImage.src);
-        title_desc.textContent = nomFichier;
+        const nomDessin = nameDessin(modalImage.src);
+        title_desc.textContent = nomDessin;
         console.log("thumb clicked");
 
         
@@ -182,6 +183,10 @@ function affFav(elem) {
 // Retourne le nom simple de l'image selectionné
 function nameFichier(elem) {
     return new URL(elem).pathname.split('/').pop();
+}
+
+function nameDessin(elem) {
+    return nameFichier(elem).split('.').slice(0, -1).join('.');
 }
 
 // Ajouter un favori
