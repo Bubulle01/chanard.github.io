@@ -6,12 +6,12 @@ const fav = document.getElementById("fav");
 const livret = document.getElementById("livret");
 const favMenu = document.getElementById("favMenu");
 const textFavNone = document.getElementById("textFavNone");
-const videFav = document.getElementById("videFav")
-
-const closeBtn = document.querySelector(".closebtn");
+const videFav = document.getElementById("videFav");
+const title_desc = document.getElementById("title_desc");
 
 const thumbnails = document.querySelectorAll(".smallThumb");
 const favNone = document.querySelectorAll(".favNone");
+const description = document.querySelector(".description")
 
 let favoris = JSON.parse(localStorage.getItem("favoris") || "[]");
 
@@ -62,18 +62,19 @@ thumbnails.forEach(smallThumb => {
         }
         modal.style.display = "flex";
         modalImage.src = smallThumb.src;
+        const nomFichier = nameFichier(modalImage.src);
+        title_desc.textContent = nomFichier;
         console.log("thumb clicked");
 
         
         /* Système de stokage des fav avec "localStorage" */
         document.getElementById("fav").onclick = function() {
             const chemin = fav.src;
-            const nomFichier = nameFichier(modalImage.src);
             if (chemin.endsWith("images/arrangement/etoile_blanc.png")) {
-               fav.src = "images/arrangement/etoile_gold.png"; 
-               ajouterFavori(nomFichier);
-               smallThumb.classList.add("favori_image");
-               afficherFavoris();
+                fav.src = "images/arrangement/etoile_gold.png"; 
+                ajouterFavori(nomFichier);
+                smallThumb.classList.add("favori_image");
+                afficherFavoris();
             }
             else {
                 fav.src = "images/arrangement/etoile_blanc.png";
@@ -83,12 +84,29 @@ thumbnails.forEach(smallThumb => {
                 affFav(favMenu.src.endsWith("images/arrangement/etoileMenu_gold.png"));
             }
         }
-    });
-});
 
-closeBtn.addEventListener("click", () => {
-    modal.style.display = "none";
-    debloquerScroll();
+        /* Système de texte des images zoomés */
+        document.getElementById("livret").onclick = function() {
+            const chemin = livret.src;
+            if (chemin.endsWith("images/arrangement/livret.png")) {
+                livret.src = "images/arrangement/livret2.png"; 
+
+                if (modalImage.clientWidth > 700) {
+                    modalImage.classList.add("element-retreci");
+                }
+                modalImage.classList.add("element-decale");
+                description.classList.add("texte-visible");
+                
+            }
+            else {
+                livret.src = "images/arrangement/livret.png";
+
+                modalImage.classList.remove("element-decale");
+                modalImage.classList.remove("element-retreci");
+                description.classList.remove("texte-visible");
+            }
+        }
+    });
 });
 
 // Close modal when clicking outside the image
@@ -96,6 +114,10 @@ modal.addEventListener("click", (event) => {
     if ((event.target === modal) || (event.target === retour)) {
         modal.style.display = "none";
         debloquerScroll();
+        livret.src = "images/arrangement/livret.png";
+        modalImage.classList.remove("element-decale");
+        modalImage.classList.remove("element-retreci");
+        description.classList.remove("texte-visible");
     }
 });
 

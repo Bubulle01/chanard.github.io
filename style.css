@@ -133,9 +133,14 @@ h2 {
 }
 
 h3 {
-    color: var(--spectralon);;
+    color: var(--spectralon);
     font-size: clamp(15px, 3vw, 6em);
     text-align: center;
+}
+
+h4 {
+    color: var(--spectralon);
+    
 }
 
 h5 {
@@ -406,10 +411,37 @@ hr::after {
     width: auto;
     max-width: 80%;
     max-height: 80%;
-    min-height: 60%;
+    min-height: 65%;
     object-fit: contain;
     object-position: center;
+    transition: all 0.5s ease-in-out, width 0.5s ease-in-out;
 }
+
+.description {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    right: 170px;
+    opacity: 0;
+    transform: translateX(50px);
+    transition: all 0.5s ease-in-out;
+}
+
+.element-decale {
+    transform: translateX(-22vw);
+}
+
+.element-retreci {
+    height: auto;
+    width: 700px;
+    transform: translateX(-22vw);
+}
+
+.texte-visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+
 
 /* Arrangement des image zoomé */
 .elementButton {
