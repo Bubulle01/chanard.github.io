@@ -142,7 +142,7 @@ button {
     background-color: var(--spectralon);
     color: var(--vantablack);
     height: clamp(30px, 7vw, 50px);
-    width: clamp(100px, 13vw, 150px);
+    width: clamp(80px, 13vw, 150px);
     border-radius: 25px;
     font-size: clamp(20px, 4vw, 35px);
     border: 0;
@@ -184,7 +184,7 @@ body > nav {
             &:hover {
                 transform: scale(1.10);
                 cursor:pointer;
-        }
+            }
         }
 
         & button {
@@ -192,6 +192,15 @@ body > nav {
         }
     }
 }
+
+@media (max-width: 560px) {
+
+    body > nav > div:first-child {
+        flex-direction: column; /* en colonne */
+    }
+}
+
+
 
 .grid4 {
     display: grid;
