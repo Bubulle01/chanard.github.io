@@ -1,5 +1,8 @@
 const modal = document.getElementById("imageModal");
 const modalImage = document.getElementById("modalImage");
+const retour = document.getElementById("retour");
+const fav = document.getElementById("fav");
+const livret = document.getElementById("livret");
 const closeBtn = document.querySelector(".closebtn");
 const thumbnails = document.querySelectorAll(".smallThumb");
 
@@ -39,6 +42,7 @@ thumbnails.forEach(smallThumb => {
         console.log("thumb clicked", smallThumb.src);
         modal.style.display = "flex";
         modalImage.src = smallThumb.src;
+
         console.log("thumb clicked");
     });
 });
@@ -49,7 +53,7 @@ closeBtn.addEventListener("click", () => {
 
 // Close modal when clicking outside the image
 modal.addEventListener("click", (event) => {
-    if (event.target === modal) {
+    if ((event.target === modal) || (event.target === retour)) {
         modal.style.display = "none";
     }
 });

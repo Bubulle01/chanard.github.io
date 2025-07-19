@@ -149,7 +149,7 @@ button:hover {
 }
 
 body > nav {
-    z-index: 1000;
+    z-index: 10;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -348,4 +348,25 @@ hr::after {
     max-height: 80%;
     object-fit: contain;
     object-position: center;
+}
+
+/* Arrangement des image zoomé */
+.elementButton {
+    position: fixed;
+    display: flex;
+    flex-direction: row-reverse;
+    top: 0;
+    right: 0;
+    z-index: 11;
+    margin: 20px;
+
+    & > img {
+        height: 50%;
+        margin: 0 10px;
+
+        &:hover {
+            transform: scale(1.10);
+            cursor:pointer;
+        }
+    }
 }
