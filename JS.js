@@ -1,3 +1,6 @@
+const width = window.innerWidth;
+const height = window.innerHeight;
+
 const modal = document.getElementById("imageModal");
 const modalImage = document.getElementById("modalImage");
 
@@ -86,25 +89,20 @@ thumbnails.forEach(smallThumb => {
             }
         }
 
-        /* Système de texte des images zoomés */
+        /* Système de livret des images zoomés */
         document.getElementById("livret").onclick = function() {
             const chemin = livret.src;
             if (chemin.endsWith("images/arrangement/livret.png")) {
                 livret.src = "images/arrangement/livret2.png"; 
 
-                if (modalImage.clientWidth > 700) {
-                    modalImage.classList.add("element-retreci");
+                if (modalImage.clientWidth > width/2) {
+
                 }
-                modalImage.classList.add("element-decale");
-                description.classList.add("texte-visible");
-                
+                modal.classList.add("active");
             }
             else {
                 livret.src = "images/arrangement/livret.png";
-
-                modalImage.classList.remove("element-decale");
-                modalImage.classList.remove("element-retreci");
-                description.classList.remove("texte-visible");
+                modal.classList.remove("active");
             }
         }
     });
@@ -112,13 +110,11 @@ thumbnails.forEach(smallThumb => {
 
 // Close modal when clicking outside the image
 modal.addEventListener("click", (event) => {
-    if ((event.target === modal) || (event.target === retour)) {
+    if ((event.target === modal) || (event.target === retour) || (event.target === description)) {
         modal.style.display = "none";
         debloquerScroll();
         livret.src = "images/arrangement/livret.png";
-        modalImage.classList.remove("element-decale");
-        modalImage.classList.remove("element-retreci");
-        description.classList.remove("texte-visible");
+        modal.classList.remove("active");
     }
 });
 
@@ -182,7 +178,7 @@ function affFav(elem) {
 
 // Retourne le nom simple de l'image selectionné
 function nameFichier(elem) {
-    return new URL(elem).pathname.split('/').pop();
+    return new URL(elem).pathname.split('/').pop().replace(/%20/g, " ");
 }
 
 function nameDessin(elem) {

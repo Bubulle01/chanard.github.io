@@ -144,14 +144,6 @@ h3 {
     text-align: center;
 }
 
-h4 {
-    color: var(--spectralon);
-    font-family: 'TrajanPro', serif;
-    text-align: center;
-    font-size: 4em;
-    margin: 10px 0;
-}
-
 h6 {
     margin: 0;
     font-size: clamp(15px, 3vw, 1.5em);
@@ -417,38 +409,49 @@ hr::after {
 }
 
 .modal-content {
-    width: auto;
+    min-width: 30vw;
     max-width: 80%;
     max-height: 80%;
     min-height: 65%;
     object-fit: contain;
     object-position: center;
-    transition: all 0.5s ease-in-out, width 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
 }
 
 .description {
     position: absolute;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45vw;
     flex-direction: column;
-    right: 170px;
     opacity: 0;
-    transform: translateX(50px);
+    transform: translateX(30vw);
     transition: all 0.5s ease-in-out;
+    padding: 20px;
+    margin-left: 20px;
+
+    & > img {
+        width: 75%;
+    }
 }
 
-.element-decale {
-    transform: translateX(-22vw);
+#title_desc {
+    color: var(--spectralon);
+    font-family: 'TrajanPro', serif;
+    text-align: justify;
+    margin: 10px 0;
+    font-size: 3.5vw;
 }
 
-.element-retreci {
-    height: auto;
-    width: 700px;
-    transform: translateX(-22vw);
+.modal.active .modal-content {
+    transform: translateX(-20vw);
+    max-width: 40vw;
 }
 
-.texte-visible {
-  opacity: 1;
-  transform: translateX(0);
+.modal.active .description {
+    opacity: 1;
+    transform: translateX(20vw);
 }
 
 
@@ -463,8 +466,9 @@ hr::after {
     margin: 20px;
 
     & > img {
-        width: 30%!important;
-        margin: 0 20px;
+        width: clamp(50%, 50%, 100%)!important;
+        height: auto!important;
+        margin: 0 clamp(5px, 1vw, 20px);
 
         &:hover {
             transform: scale(1.10);
