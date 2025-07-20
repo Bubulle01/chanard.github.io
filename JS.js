@@ -178,7 +178,7 @@ function affFav(elem) {
 
 // Retourne le nom simple de l'image selectionné
 function nameFichier(elem) {
-    return new URL(elem).pathname.split('/').pop().replace(/%20/g, " ");
+    return decodeURIComponent(new URL(elem).pathname.split('/').pop());
 }
 
 function nameDessin(elem) {
