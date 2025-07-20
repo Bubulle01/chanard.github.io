@@ -61,9 +61,11 @@ thumbnails.forEach(smallThumb => {
         console.log("thumb clicked", nameFichier(smallThumb.src));
         if (smallThumb.classList.contains("favori_image")) {
             fav.src = "images/arrangement/etoile_gold.png"; 
+            
         }
         else {
             fav.src = "images/arrangement/etoile_blanc.png";
+            
         }
         modal.style.display = "flex";
         modalImage.src = smallThumb.src;
@@ -93,12 +95,14 @@ thumbnails.forEach(smallThumb => {
             const chemin = fav.src;
             if (chemin.endsWith("images/arrangement/etoile_blanc.png")) {
                 fav.src = "images/arrangement/etoile_gold.png"; 
+                
                 ajouterFavori(nomFichier);
                 smallThumb.classList.add("favori_image");
                 afficherFavoris();
             }
             else {
                 fav.src = "images/arrangement/etoile_blanc.png";
+                
                 supprimerFavori(nomFichier);
                 smallThumb.classList.remove("favori_image");
 
@@ -126,6 +130,11 @@ thumbnails.forEach(smallThumb => {
                 modal.classList.remove("active2");
             }
         }
+
+        /* Quand la flèche retour est entré */
+        document.getElementById("retour").onclick = function() {
+            retour.src = "images/arrangement/retour-fleche2.png";
+        }
     });
 });
 
@@ -135,6 +144,7 @@ modal.addEventListener("click", (event) => {
         modal.style.display = "none";
         debloquerScroll();
         livret.src = "images/arrangement/livret.png";
+        retour.src = "images/arrangement/retour-fleche.png";
         modal.classList.remove("active");
         modal.classList.remove("active2");
     }
@@ -146,10 +156,12 @@ modal.addEventListener("click", (event) => {
 document.getElementById("favMenu").onclick = function() {
     if (favMenu.src.endsWith("images/arrangement/etoileMenu.png")) {
         favMenu.src = "images/arrangement/etoileMenu_gold.png"; 
+        
         affFav(true);
     }
     else {
         favMenu.src = "images/arrangement/etoileMenu.png"; 
+        
         affFav(false);
     }
 }
