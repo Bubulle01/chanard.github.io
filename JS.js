@@ -80,7 +80,7 @@ thumbnails.forEach(smallThumb => {
         }
         else if ((smallThumb.closest(".grid4")) && (width >= tailleTel)) {
             description.style.transform = "translateX(30vw) translateY(0)";
-            console.log("mode dessin pc ");
+            console.log("mode dessin pc");
         }
         else {
             description.style.transform = "translateX(0) translateY(20%)";
@@ -181,7 +181,7 @@ videFav.addEventListener("click", function(event) {
 // Reset le roll Favori page
 function affFav(elem) {
     if (elem) {
-        textFavNone.style.display = "block"; 
+        textFavNone.style.display = "flex"; 
         favNone.forEach(truc => {
             truc.style.display = "none";
         });
