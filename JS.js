@@ -95,19 +95,16 @@ thumbnails.forEach(smallThumb => {
             const chemin = fav.src;
             if (chemin.endsWith("images/arrangement/etoile_blanc.png")) {
                 fav.src = "images/arrangement/etoile_gold.png"; 
-                
                 ajouterFavori(nomFichier);
                 smallThumb.classList.add("favori_image");
                 afficherFavoris();
             }
             else {
                 fav.src = "images/arrangement/etoile_blanc.png";
-                
                 supprimerFavori(nomFichier);
                 smallThumb.classList.remove("favori_image");
-
-                affFav(favMenu.src.endsWith("images/arrangement/etoileMenu_gold.png"));
             }
+            affFav(favMenu.src.endsWith("images/arrangement/etoileMenu_gold.png"));
         }
 
         /* Système de livret des images zoomés */
@@ -131,10 +128,14 @@ thumbnails.forEach(smallThumb => {
             }
         }
 
-        /* Quand la flèche retour est entré */
-        document.getElementById("retour").onclick = function() {
+        /* Quand la flèche retour est survolé */
+        retour.addEventListener('mouseenter', () => {
             retour.src = "images/arrangement/retour-fleche2.png";
-        }
+        });
+
+        retour.addEventListener('mouseleave', () => {
+            retour.src = "images/arrangement/retour-fleche.png";
+        });
     });
 });
 
