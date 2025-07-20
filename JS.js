@@ -1,5 +1,6 @@
-const width = window.innerWidth;
-const height = window.innerHeight;
+var width = window.innerWidth;
+var height = window.innerHeight;
+const tailleTel = 480;
 
 const modal = document.getElementById("imageModal");
 const modalImage = document.getElementById("modalImage");
@@ -15,6 +16,7 @@ const title_desc = document.getElementById("title_desc");
 const thumbnails = document.querySelectorAll(".smallThumb");
 const favNone = document.querySelectorAll(".favNone");
 const description = document.querySelector(".description")
+const fond_noir_desc = document.querySelector(".fond_noir_desc")
 
 let favoris = JSON.parse(localStorage.getItem("favoris") || "[]");
 
@@ -68,6 +70,21 @@ thumbnails.forEach(smallThumb => {
         const nomFichier = nameFichier(modalImage.src);
         const nomDessin = nameDessin(modalImage.src);
         title_desc.textContent = nomDessin;
+
+        var width = window.innerWidth;
+        if ((!smallThumb.closest(".grid4")) && (width >= tailleTel)) {
+            description.style.transform = "translateX(0) translateY(5vh)";
+            console.log("mode fond pc");
+        }
+        else if ((smallThumb.closest(".grid4")) && (width >= tailleTel)) {
+            description.style.transform = "translateX(30vw) translateY(0)";
+            console.log("mode dessin pc ");
+        }
+        else {
+            description.style.transform = "translateX(0) translateY(20%)";
+            console.log("mode tel");
+        }
+
         console.log("thumb clicked");
 
         
@@ -93,16 +110,20 @@ thumbnails.forEach(smallThumb => {
         document.getElementById("livret").onclick = function() {
             const chemin = livret.src;
             if (chemin.endsWith("images/arrangement/livret.png")) {
-                livret.src = "images/arrangement/livret2.png"; 
+                livret.src = "images/arrangement/livret2.png";
 
-                if (modalImage.clientWidth > width/2) {
-
+                var width = window.innerWidth;
+                if ((!smallThumb.closest(".grid4")) && (width >= tailleTel)) {
+                    modal.classList.add("active2");
                 }
-                modal.classList.add("active");
+                else {
+                    modal.classList.add("active");
+                }
             }
             else {
                 livret.src = "images/arrangement/livret.png";
                 modal.classList.remove("active");
+                modal.classList.remove("active2");
             }
         }
     });
@@ -115,6 +136,7 @@ modal.addEventListener("click", (event) => {
         debloquerScroll();
         livret.src = "images/arrangement/livret.png";
         modal.classList.remove("active");
+        modal.classList.remove("active2");
     }
 });
 
