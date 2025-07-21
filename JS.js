@@ -12,11 +12,14 @@ const favMenu = document.getElementById("favMenu");
 const textFavNone = document.getElementById("textFavNone");
 const videFav = document.getElementById("videFav");
 const title_desc = document.getElementById("title_desc");
+const dossIcoFav = document.getElementById("dossIcoFav");
 
 const thumbnails = document.querySelectorAll(".smallThumb");
 const favNone = document.querySelectorAll(".favNone");
 const description = document.querySelector(".description")
 const fond_noir_desc = document.querySelector(".fond_noir_desc")
+
+const icoFav = document.createElement("img").src = "images/arrangement/icoFav.png"; 
 
 let favoris = JSON.parse(localStorage.getItem("favoris") || "[]");
 
