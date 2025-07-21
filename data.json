@@ -1,0 +1,11 @@
+[
+  {
+    "image": "images/photo1.jpg",
+    "texte": "Voici la description de la photo 1"
+  },
+  {
+    "image": "images/photo2.jpg",
+    "titre": "",
+    "texte": "Voici la description de la photo 2"
+  }
+]
