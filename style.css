@@ -23,11 +23,11 @@
 }
 
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 * {
-  font-family: "Zain", sans-serif;
+    font-family: "Zain", sans-serif;
 }
 
 body {
@@ -436,10 +436,19 @@ hr::after {
 
 #title_desc {
     color: var(--spectralon);
+    font-weight: bold;
     font-family: 'TrajanPro', serif;
     text-align: center;
     margin: 10px 0;
     font-size: clamp(1rem, 6vw, 4rem);
+}
+
+#desc {
+    color: var(--spectralon);
+    font-family: 'TrajanPro', serif;
+    text-align: center;
+    margin: 10px;
+    font-size: clamp(0.5rem, 4vw, 2rem);
 }
 
 @media (min-width: 480px) {

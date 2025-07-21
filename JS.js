@@ -12,22 +12,22 @@ const favMenu = document.getElementById("favMenu");
 const textFavNone = document.getElementById("textFavNone");
 const videFav = document.getElementById("videFav");
 const title_desc = document.getElementById("title_desc");
+const desc = document.getElementById("desc");
 const dossIcoFav = document.getElementById("dossIcoFav");
-const gridTEST = document.getElementById("gridTEST");
 
 data = [
   {
     "image": "images/Chino.png",
     "alt": "alt Chino",
-    "place": gridTEST,
-    "titre": "Chino",
-    "description": "Voici la description de Chino"
+    "place": "gridTEST",
+    "titre": "Chino le pouilleux",
+    "description": ""
   },
   {
     "image": "images/Chenry.png",
     "alt": "alt Chenry",
-    "place": gridTEST,
-    "titre": "Chenry",
+    "place": "gridTEST",
+    "titre": "Chenry le pouilleux",
     "description": "Voici la description de Chenry"
   }
 ]
@@ -54,7 +54,8 @@ fetch('data.json')
                 img.classList.add("lowQuality");
             }
         */
-            gridTEST.appendChild(img);
+            const grille = document.getElementById(`${item.place}`);
+            grille.appendChild(img);
             console.log("spawn", `${item.image}`);
         });
 /*
@@ -119,7 +120,13 @@ thumbnails.forEach(smallThumb => {
         modalImage.src = smallThumb.src;
         const nomFichier = nameFichier(modalImage.src);
         const nomDessin = nameDessin(modalImage.src);
-        title_desc.textContent = nomDessin;
+
+        data.forEach(item => {
+            if (nomFichier == nameFichier(`${item.image}`)) {
+                title_desc.textContent = `${item.titre}`;
+                desc.textContent = `${item.description}`;
+            }
+        });
 
         var width = window.innerWidth;
         if ((!smallThumb.closest(".grid4")) && (width >= tailleTel)) {
@@ -260,8 +267,15 @@ function affFav(elem) {
 }
 
 // Retourne le nom simple de l'image selectionné
+
+/*
 function nameFichier(elem) {
     return decodeURIComponent(new URL(elem).pathname.split('/').pop());
+}
+*/
+
+function nameFichier(elem) {
+    return decodeURIComponent(elem.split('/').pop());
 }
 
 function nameDessin(elem) {
