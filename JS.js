@@ -13,13 +13,58 @@ const textFavNone = document.getElementById("textFavNone");
 const videFav = document.getElementById("videFav");
 const title_desc = document.getElementById("title_desc");
 const dossIcoFav = document.getElementById("dossIcoFav");
+const gridTEST = document.getElementById("gridTEST");
+
+data = [
+  {
+    "image": "images/Chino.png",
+    "alt": "alt Chino",
+    "place": gridTEST,
+    "titre": "Chino",
+    "description": "Voici la description de Chino"
+  },
+  {
+    "image": "images/Chenry.png",
+    "alt": "alt Chenry",
+    "place": gridTEST,
+    "titre": "Chenry",
+    "description": "Voici la description de Chenry"
+  }
+]
+
+/* Démarre le JSON pour l'application automatisé des images */
+
+/*
+fetch('data.json')
+    .then(response => response.json())
+    .then(data => {
+*/
+        data.forEach(item => {
+            const img = document.createElement('img');
+            img.src = `${item.image}`;
+            img.alt = `${item.alt}`;
+            if (img.width > img.height) {
+                img.className = 'smallThumb largeur';
+            }
+            else {
+                img.className = 'smallThumb hauteur';
+            }
+        /*
+            if (img.naturalWidth + img.naturalHeight < 1000) {
+                img.classList.add("lowQuality");
+            }
+        */
+            gridTEST.appendChild(img);
+            console.log("spawn", `${item.image}`);
+        });
+/*
+    });
+*/
 
 const thumbnails = document.querySelectorAll(".smallThumb");
 const favNone = document.querySelectorAll(".favNone");
 const description = document.querySelector(".description")
 const fond_noir_desc = document.querySelector(".fond_noir_desc")
-
-const icoFav = document.createElement("img").src = "images/arrangement/icoFav.png"; 
 
 let favoris = JSON.parse(localStorage.getItem("favoris") || "[]");
 

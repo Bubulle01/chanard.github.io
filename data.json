@@ -1,11 +1,18 @@
 [
   {
-    "image": "images/photo1.jpg",
-    "texte": "Voici la description de la photo 1"
+    "image": "images/Chino.png",
+    "alt": "alt Chino",
+    "classe": "largeur",
+    "place": gridTEST,
+    "titre": "Chino",
+    "description": "Voici la description de Chino"
   },
   {
-    "image": "images/photo2.jpg",
-    "titre": "",
-    "texte": "Voici la description de la photo 2"
+    "image": "images/Chenry.png",
+    "alt": "alt Chenry",
+    "classe": "largeur",
+    "place": gridTEST,
+    "titre": "Chenry",
+    "description": "Voici la description de Chenry"
   }
 ]
