@@ -146,403 +146,315 @@
     "titre": "Chufel",
     "description": ""
   },
-
-
-  <img class="smallThumb largeur" src="images\Chuffy.png">
   {
-    "image": "images/Chametist.png",
-    "alt": "alt Ametist - Steven Universe",
+    "image": "images/Chuffy.png",
+    "alt": "alt Lufel - Persona 5X",
     "place": "montage",
-    "titre": "Chametist",
+    "titre": "Chuffy",
+    "description": ""
+  },
+  {
+    "image": "images/Adventure Chime.png",
+    "alt": "alt - Adventure Time",
+    "place": "montage",
+    "titre": "Adventure Chime",
+    "description": ""
+  },
+  {
+    "image": "images/Adventure with Chanard anxiety.png",
+    "alt": "alt - Adventure with anxiety",
+    "place": "montage",
+    "titre": "Adventure with Chanard anxiety",
+    "description": ""
+  },
+  {
+    "image": "images/Angry Chanard.png",
+    "alt": "alt - Angry Bird",
+    "place": "montage",
+    "titre": "Angry Chanard",
+    "description": ""
+  },
+  {
+    "image": "images/Banard.png",
+    "alt": "alt Badeline - Céleste",
+    "place": "montage",
+    "titre": "Banard",
+    "description": ""
+  },
+  {
+    "image": "images/Bancheenard.png",
+    "alt": "alt Bansheep - Cassette Beast",
+    "place": "montage",
+    "titre": "Bancheenard",
+    "description": ""
+  },
+  {
+    "image": "images/Banjo-chazooie.png",
+    "alt": "alt - Banjo-Kazooie",
+    "place": "montage",
+    "titre": "Banjo-Chazooie",
+    "description": ""
+  },
+  {
+    "image": "images/Blitcho.png",
+    "alt": "alt Blitzo - Helluva Boss",
+    "place": "montage",
+    "titre": "Blitcho",
+    "description": ""
+  },
+  {
+    "image": "images/Brettcha.png",
+    "alt": "alt Bretta - HollowKnight",
+    "place": "montage",
+    "titre": "Brettcha",
+    "description": ""
+  },
+  {
+    "image": "images/Chabby.png",
+    "alt": "alt Tabby - Genshin Impact",
+    "place": "montage",
+    "titre": "Chabby",
+    "description": ""
+  },
+  {
+    "image": "images/Chabil.png",
+    "alt": "alt Babil - The legend of Zelda",
+    "place": "montage",
+    "titre": "Chabil",
+    "description": ""
+  },
+  {
+    "image": "images/Chabou.png",
+    "alt": "alt Tibou - Animal Crossing",
+    "place": "montage",
+    "titre": "Chabou",
+    "description": ""
+  },
+  {
+    "image": "images/Chabus.png",
+    "alt": "alt Le Dernier Coléoptère - Hollow Knight",
+    "place": "montage",
+    "titre": "Chabus",
+    "description": ""
+  },
+  {
+    "image": "images/Chacaba.png",
+    "alt": "alt Chocobo - Final Fantasy",
+    "place": "montage",
+    "titre": "Chacaba",
+    "description": ""
+  },
+  {
+    "image": "images/Chacaw.png",
+    "alt": "alt Chacaw - ???",
+    "place": "montage",
+    "titre": "Chacaw",
+    "description": ""
+  },
+  {
+    "image": "images/Chacholas.png",
+    "alt": "alt Ptiti Stolas - Helluva Boss",
+    "place": "montage",
+    "titre": "Chacholas",
+    "description": ""
+  },
+  {
+    "image": "images/Chaepora.png",
+    "alt": "alt Kaepora - The legend of Zelda",
+    "place": "montage",
+    "titre": "Chaepora",
+    "description": ""
+  },
+  {
+    "image": "images/Chainbow Dash.png",
+    "alt": "alt Rainbow Dash - My Little Pony",
+    "place": "montage",
+    "titre": "Chainbow Dash",
+    "description": ""
+  },
+  {
+    "image": "images/Chaken.png",
+    "alt": "alt Bracken - Lethal Compagny",
+    "place": "montage",
+    "titre": "Chacken",
+    "description": ""
+  },
+  {
+    "image": "images/Chako.png",
+    "alt": "alt Niko - One Shot",
+    "place": "montage",
+    "titre": "Chako",
+    "description": ""
+  },
+  {
+    "image": "images/Chalastor.png",
+    "alt": "alt Alastor - Hazbin Hotel",
+    "place": "montage",
+    "titre": "Chalastor",
+    "description": ""
+  },
+  {
+    "image": "images/Chalco.png",
+    "alt": "alt Falco - Chalco",
+    "place": "montage",
+    "titre": "Chalco",
+    "description": ""
+  },
+  {
+    "image": "images/Chaléar.png",
+    "alt": "alt Aléar - Fire Emblem",
+    "place": "montage",
+    "titre": "Chaléar",
+    "description": ""
+  },
+  {
+    "image": "images/Chaleste.png",
+    "alt": "alt - Céleste",
+    "place": "montage",
+    "titre": "Chaleste",
+    "description": ""
+  },
+  {
+    "image": "images/Chally face.png",
+    "alt": "alt - Sally face",
+    "place": "montage",
+    "titre": "Chally face",
+    "description": ""
+  },
+  {
+    "image": "images/Chaloona.png",
+    "alt": "alt Loona - Helluva Boss",
+    "place": "montage",
+    "titre": "Chaloona",
+    "description": ""
+  },
+  {
+    "image": "images/Chalsei.png",
+    "alt": "alt Ralsei - Deltarune",
+    "place": "montage",
+    "titre": "Chalsei",
+    "description": ""
+  },
+  {
+    "image": "images/Chalumeau.png",
+    "alt": "alt Chalumeau - ???",
+    "place": "montage",
+    "titre": "Chalumeau",
+    "description": ""
+  },
+  {
+    "image": "images/Chamach.png",
+    "alt": "alt ??? - Cult of the Lamb",
+    "place": "montage",
+    "titre": "Chamach",
+    "description": ""
+  },
+  {
+    "image": "images/Chamaloo.png",
+    "alt": "alt ??? - One Piece",
+    "place": "montage",
+    "titre": "Chamaloo",
+    "description": ""
+  },
+  {
+    "image": "images/chamon.png",
+    "alt": "alt Paimon - Genshin Impact",
+    "place": "montage",
+    "titre": "Chamon",
+    "description": ""
+  },
+  {
+    "image": "images/Chanane.png",
+    "alt": "alt Chanane - Fornite",
+    "place": "montage",
+    "titre": "Chanane",
+    "description": ""
+  },
+  {
+    "image": "images/Chanaraïme.png",
+    "alt": "alt ??? - ???",
+    "place": "montage",
+    "titre": "Chanaraïme",
+    "description": ""
+  },
+  {
+    "image": "images/Chanard babouin.png",
+    "alt": "alt Faucon babouin - Lethal Compagny",
+    "place": "montage",
+    "titre": "Chanard babouin",
+    "description": ""
+  },
+  {
+    "image": "images/Chanard Bust Up.png",
+    "alt": "alt ??? - ???",
+    "place": "montage",
+    "titre": "Chanard Bust Up",
+    "description": ""
+  },
+  {
+    "image": "images/Chanard dans la secte.png",
+    "alt": "alt Chanard dans la secte - Cult of the Lamb",
+    "place": "montage",
+    "titre": "Chanard dans la secte",
+    "description": ""
+  },
+  {
+    "image": "images/Chanard de Kiki.png",
+    "alt": "alt Jiji - Kiki la petite sorcière",
+    "place": "montage",
+    "titre": "Chanard de Kiki",
+    "description": ""
+  },
+  {
+    "image": "images/Chanard le pompier.png",
+    "alt": "alt - Sam le pompier",
+    "place": "montage",
+    "titre": "Chanard le pompier",
+    "description": ""
+  },
+  {
+    "image": "images/Chanard Nook.png",
+    "alt": "alt Tom Nook - Animal Crossing",
+    "place": "montage",
+    "titre": "Chanard Nook",
+    "description": ""
+  },
+  {
+    "image": "images/Chanard pikle.png",
+    "alt": "alt Rick pikle - Rick et Morty",
+    "place": "montage",
+    "titre": "Chanard pikle",
+    "description": ""
+  },
+  {
+    "image": "images/Chingouin.png",
+    "alt": "alt Pingouin skin - ???",
+    "place": "montage",
+    "titre": "Chingouin",
+    "description": ""
+  },
+  {
+    "image": "images/Chanard the hawk.png",
+    "alt": "alt Jet the Hawk - Sonic",
+    "place": "montage",
+    "titre": "Chanard the Hawk",
+    "description": ""
+  },
+  {
+    "image": "images/Chanarda.png",
+    "alt": "alt Miascarade - Pokémon",
+    "place": "montage",
+    "titre": "Chanarda",
+    "description": ""
+  },
+  {
+    "image": "images/Chanareater.png",
+    "alt": "alt Maneaters - Lethal Compagny",
+    "place": "montage",
+    "titre": "Chanareater",
     "description": ""
   },
 
-
-  <img class="smallThumb largeur" src="images\Adventure Chime.png">
-  {
-    "image": "images/Chametist.png",
-    "alt": "alt Ametist - Steven Universe",
-    "place": "montage",
-    "titre": "Chametist",
-    "description": ""
-  },
-
-
-  <img class="smallThumb hauteur" src="images\Adventure with Chanard anxiety.png">
-  {
-    "image": "images/Chametist.png",
-    "alt": "alt Ametist - Steven Universe",
-    "place": "montage",
-    "titre": "Chametist",
-    "description": ""
-  },
-
-
-  <img class="smallThumb hauteur" src="images\Angry Chanard.png">
-  {
-    "image": "images/Chametist.png",
-    "alt": "alt Ametist - Steven Universe",
-    "place": "montage",
-    "titre": "Chametist",
-    "description": ""
-  },
-
-
-  <img class="smallThumb hauteur" src="images\Banard.png">
-  {
-    "image": "images/Chametist.png",
-    "alt": "alt Ametist - Steven Universe",
-    "place": "montage",
-    "titre": "Chametist",
-    "description": ""
-  },
-
-
-  <img class="smallThumb largeur" src="images\Bancheenard.png">
-  {
-    "image": "images/Chametist.png",
-    "alt": "alt Ametist - Steven Universe",
-    "place": "montage",
-    "titre": "Chametist",
-    "description": ""
-  },
-
-
-  <img class="smallThumb hauteur" src="images\Banjo-chazooie.png">
-  {
-    "image": "images/Chametist.png",
-    "alt": "alt Ametist - Steven Universe",
-    "place": "montage",
-    "titre": "Chametist",
-    "description": ""
-  },
-
-
-  <img class="smallThumb hauteur" src="images\Blitcho.png">
-  {
-    "image": "images/Chametist.png",
-    "alt": "alt Ametist - Steven Universe",
-    "place": "montage",
-    "titre": "Chametist",
-    "description": ""
-  },
-
-
-  <img class="smallThumb hauteur lowQuality" src="images\Brettcha.png">
-  {
-    "image": "images/Chametist.png",
-    "alt": "alt Ametist - Steven Universe",
-    "place": "montage",
-    "titre": "Chametist",
-    "description": ""
-  },
-
-
-  <img class="smallThumb hauteur" src="images\Chabby.png">
-  {
-    "image": "images/Chametist.png",
-    "alt": "alt Ametist - Steven Universe",
-    "place": "montage",
-    "titre": "Chametist",
-    "description": ""
-  },
-
-
-  <img class="smallThumb largeur" src="images\Chabil.png">
-  {
-    "image": "images/Chametist.png",
-    "alt": "alt Ametist - Steven Universe",
-    "place": "montage",
-    "titre": "Chametist",
-    "description": ""
-  },
-
-
-  <img class="smallThumb largeur" src="images\Chabou.png">
-  {
-    "image": "images/Chametist.png",
-    "alt": "alt Ametist - Steven Universe",
-    "place": "montage",
-    "titre": "Chametist",
-    "description": ""
-  },
-
-
-  <img class="smallThumb largeur lowQuality" src="images\Chabus.png">
-  {
-    "image": "images/Chametist.png",
-    "alt": "alt Ametist - Steven Universe",
-    "place": "montage",
-    "titre": "Chametist",
-    "description": ""
-  },
-
-
-  <img class="smallThumb hauteur" src="images\Chacaba.png">
-  {
-    "image": "images/Chametist.png",
-    "alt": "alt Ametist - Steven Universe",
-    "place": "montage",
-    "titre": "Chametist",
-    "description": ""
-  },
-
-
-  <img class="smallThumb hauteur" src="images\Chacaw.png">
-  {
-    "image": "images/Chametist.png",
-    "alt": "alt Ametist - Steven Universe",
-    "place": "montage",
-    "titre": "Chametist",
-    "description": ""
-  },
-
-
-  <img class="smallThumb hauteur" src="images\Chacholas.png">
-  {
-    "image": "images/Chametist.png",
-    "alt": "alt Ametist - Steven Universe",
-    "place": "montage",
-    "titre": "Chametist",
-    "description": ""
-  },
-
-
-  <img class="smallThumb hauteur" src="images\Chaepora.png">
-  {
-    "image": "images/Chametist.png",
-    "alt": "alt Ametist - Steven Universe",
-    "place": "montage",
-    "titre": "Chametist",
-    "description": ""
-  },
-
-
-  <img class="smallThumb hauteur" src="images\Chainbow Dash.png">
-  {
-    "image": "images/Chametist.png",
-    "alt": "alt Ametist - Steven Universe",
-    "place": "montage",
-    "titre": "Chametist",
-    "description": ""
-  },
-
-
-  <img class="smallThumb hauteur" src="images\Chaken.png">
-  {
-    "image": "images/Chametist.png",
-    "alt": "alt Ametist - Steven Universe",
-    "place": "montage",
-    "titre": "Chametist",
-    "description": ""
-  },
-
-
-  <img class="smallThumb hauteur" src="images\Chako.png">
-  {
-    "image": "images/Chametist.png",
-    "alt": "alt Ametist - Steven Universe",
-    "place": "montage",
-    "titre": "Chametist",
-    "description": ""
-  },
-
-
-  <img class="smallThumb hauteur" src="images\Chalastor.png">
-  {
-    "image": "images/Chametist.png",
-    "alt": "alt Ametist - Steven Universe",
-    "place": "montage",
-    "titre": "Chametist",
-    "description": ""
-  },
-
-
-  <img class="smallThumb hauteur" src="images\Chalco.png">
-  {
-    "image": "images/Chametist.png",
-    "alt": "alt Ametist - Steven Universe",
-    "place": "montage",
-    "titre": "Chametist",
-    "description": ""
-  },
-
-
-  <img class="smallThumb hauteur" src="images\Chaléar.png">
-  {
-    "image": "images/Chametist.png",
-    "alt": "alt Ametist - Steven Universe",
-    "place": "montage",
-    "titre": "Chametist",
-    "description": ""
-  },
-
-
-  <img class="smallThumb hauteur" src="images\Chaleste.png">
-  {
-    "image": "images/Chametist.png",
-    "alt": "alt Ametist - Steven Universe",
-    "place": "montage",
-    "titre": "Chametist",
-    "description": ""
-  },
-
-
-  <img class="smallThumb hauteur" src="images\Chally face.png">
-  {
-    "image": "images/Chametist.png",
-    "alt": "alt Ametist - Steven Universe",
-    "place": "montage",
-    "titre": "Chametist",
-    "description": ""
-  },
-
-
-  <img class="smallThumb hauteur" src="images\Chaloona.png">
-  {
-    "image": "images/Chametist.png",
-    "alt": "alt Ametist - Steven Universe",
-    "place": "montage",
-    "titre": "Chametist",
-    "description": ""
-  },
-
-
-  <img class="smallThumb hauteur" src="images\Chalsei.png">
-  {
-    "image": "images/Chametist.png",
-    "alt": "alt Ametist - Steven Universe",
-    "place": "montage",
-    "titre": "Chametist",
-    "description": ""
-  },
-
-
-  <img class="smallThumb hauteur lowQuality" src="images\Chalumeau.png">
-  {
-    "image": "images/Chametist.png",
-    "alt": "alt Ametist - Steven Universe",
-    "place": "montage",
-    "titre": "Chametist",
-    "description": ""
-  },
-
-
-  <img class="smallThumb hauteur" src="images\Chamach.png">
-  {
-    "image": "images/Chametist.png",
-    "alt": "alt Ametist - Steven Universe",
-    "place": "montage",
-    "titre": "Chametist",
-    "description": ""
-  },
-
-
-  <img class="smallThumb hauteur" src="images\Chamaloo.png">
-  {
-    "image": "images/Chametist.png",
-    "alt": "alt Ametist - Steven Universe",
-    "place": "montage",
-    "titre": "Chametist",
-    "description": ""
-  },
-
-
-  <img class="smallThumb hauteur" src="images\chamon.png">
-  {
-    "image": "images/Chametist.png",
-    "alt": "alt Ametist - Steven Universe",
-    "place": "montage",
-    "titre": "Chametist",
-    "description": ""
-  },
-
-
-  <img class="smallThumb hauteur" src="images\Chanane.png">
-  {
-    "image": "images/Chametist.png",
-    "alt": "alt Ametist - Steven Universe",
-    "place": "montage",
-    "titre": "Chametist",
-    "description": ""
-  },
-
-
-  <img class="smallThumb hauteur" src="images\Chanaraïme.png">
-  {
-    "image": "images/Chametist.png",
-    "alt": "alt Ametist - Steven Universe",
-    "place": "montage",
-    "titre": "Chametist",
-    "description": ""
-  },
-
-
-  <img class="smallThumb largeur" src="images\Chanard babouin.png">
-  {
-    "image": "images/Chametist.png",
-    "alt": "alt Ametist - Steven Universe",
-    "place": "montage",
-    "titre": "Chametist",
-    "description": ""
-  },
-
-
-  <img class="smallThumb hauteur" src="images\Chanard Bust Up.png">
-  {
-    "image": "images/Chametist.png",
-    "alt": "alt Ametist - Steven Universe",
-    "place": "montage",
-    "titre": "Chametist",
-    "description": ""
-  },
-
-
-  <img class="smallThumb largeur" src="images\Chanard dans la secte.png">
-  {
-    "image": "images/Chametist.png",
-    "alt": "alt Ametist - Steven Universe",
-    "place": "montage",
-    "titre": "Chametist",
-    "description": ""
-  },
-
-
-  <img class="smallThumb hauteur" src="images\Chanard de Kiki.png">
-  {
-    "image": "images/Chametist.png",
-    "alt": "alt Ametist - Steven Universe",
-    "place": "montage",
-    "titre": "Chametist",
-    "description": ""
-  },
-
-
-  <img class="smallThumb hauteur" src="images\Chanard le pompier.png">
-  {
-    "image": "images/Chametist.png",
-    "alt": "alt Ametist - Steven Universe",
-    "place": "montage",
-    "titre": "Chametist",
-    "description": ""
-  },
-
-
-  <img class="smallThumb hauteur" src="images\Chanard Nook.png">
-  {
-    "image": "images/Chametist.png",
-    "alt": "alt Ametist - Steven Universe",
-    "place": "montage",
-    "titre": "Chametist",
-    "description": ""
-  },
-
-
-  <img class="smallThumb hauteur" src="images\Chanard pikle.png">
-  <img class="smallThumb hauteur" src="images\Chingouin.png">
-  <img class="smallThumb hauteur" src="images\Chanard the hawk.png">
-  <img class="smallThumb hauteur" src="images\Chanarda.png">
-  <img class="smallThumb hauteur" src="images\Chanareater.png">
   <img class="smallThumb hauteur" src="images\Chanarosado.png">
   <img class="smallThumb hauteur" src="images\Chaney.png">
   <img class="smallThumb hauteur" src="images\Changel Dust.png">
