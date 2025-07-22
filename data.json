@@ -454,55 +454,357 @@
     "titre": "Chanareater",
     "description": ""
   },
+  {
+    "image": "images/Chanarosado.png",
+    "alt": "alt Rosado - Fire Emblem",
+    "place": "montage",
+    "titre": "Chanarosado",
+    "description": ""
+  },
+  {
+    "image": "images/Chaney.png",
+    "alt": "alt Flowey - Undertale",
+    "place": "montage",
+    "titre": "Chaney",
+    "description": ""
+  },
+  {
+    "image": "images/Changel Dust.png",
+    "alt": "alt Angel Dust - Hazbin Hotel",
+    "place": "montage",
+    "titre": "Changel Dust",
+    "description": ""
+  },
+  {
+    "image": "images/Channi.png",
+    "alt": "alt Ranni - Elden Ring",
+    "place": "montage",
+    "titre": "Channi",
+    "description": ""
+  },
+  {
+    "image": "images/Chanondorf.png",
+    "alt": "alt Ganondorf - The legend of Zelda",
+    "place": "montage",
+    "titre": "Chanondorf",
+    "description": ""
+  },
+  {
+    "image": "images/Chanoomba.png",
+    "alt": "alt Goomba - Mario Bros",
+    "place": "montage",
+    "titre": "Chanoomba",
+    "description": ""
+  },
+  {
+    "image": "images/Chans.png",
+    "alt": "alt Sans - Undertale",
+    "place": "montage",
+    "titre": "Chans",
+    "description": ""
+  },
+  {
+    "image": "images/Chanyrus.png",
+    "alt": "alt Papyrus - Undertale",
+    "place": "montage",
+    "titre": "Chanyrus",
+    "description": ""
+  },
+  {
+    "image": "images/Chaphet.png",
+    "alt": "alt ??? - ???",
+    "place": "montage",
+    "titre": "Chaphet",
+    "description": ""
+  },
+  {
+    "image": "images/Chappa.png",
+    "alt": "alt Appa - Avatar",
+    "place": "montage",
+    "titre": "Chappa",
+    "description": ""
+  },
+  {
+    "image": "images/Chappeee.png",
+    "alt": "alt Insecte Syllogomane - Lethal Compagny",
+    "place": "montage",
+    "titre": "Chappeee",
+    "description": ""
+  },
+  {
+    "image": "images/Chaqueen.png",
+    "alt": "alt Queen - Deltatune",
+    "place": "montage",
+    "titre": "Chween",
+    "description": ""
+  },
+  {
+    "image": "images/Charboss.png",
+    "alt": "alt Corboss - Pokémon",
+    "place": "montage",
+    "titre": "Charboss",
+    "description": ""
+  },
+  {
+    "image": "images/Chardevoir.png",
+    "alt": "alt Gardevoir - Pokémon",
+    "place": "montage",
+    "titre": "Chardevoir",
+    "description": ""
+  },
+  {
+    "image": "images/Charie.png",
+    "alt": "alt Marie - Animal Crossing",
+    "place": "montage",
+    "titre": "Charie",
+    "description": ""
+  },
+  {
+    "image": "images/Charo.png",
+    "alt": "alt ??? - Cult of the Lamb",
+    "place": "montage",
+    "titre": "Charo",
+    "description": ""
+  },
+  {
+    "image": "images/Charonica.png",
+    "alt": "alt ??? - Fire Emblem",
+    "place": "montage",
+    "titre": "Charonica",
+    "description": ""
+  },
+  {
+    "image": "images/Chasalina.png",
+    "alt": "alt Harmonie - Mario Bros",
+    "place": "montage",
+    "titre": "Chasalina",
+    "description": ""
+  },
+  {
+    "image": "images/Chataro.png",
+    "alt": "alt Jotaro - Jojo Bizarre Aventure",
+    "place": "montage",
+    "titre": "Chataro",
+    "description": ""
+  },
+  {
+    "image": "images/Chatewaki Kunard.png",
+    "alt": "alt ??? - Ranma 1/2",
+    "place": "montage",
+    "titre": "Chatewaki Kunard",
+    "description": ""
+  },
+  {
+    "image": "images/Chathalos.png",
+    "alt": "alt Rathalos - Monster Hunter",
+    "place": "montage",
+    "titre": "Chathalos",
+    "description": ""
+  },
+  {
+    "image": "images/Chatsuko.png",
+    "alt": "alt ??? - ???",
+    "place": "montage",
+    "titre": "Chatsuko",
+    "description": ""
+  },
+  {
+    "image": "images/Chava.png",
+    "alt": "alt Ava - Fornite",
+    "place": "montage",
+    "titre": "Chava",
+    "description": ""
+  },
+  {
+    "image": "images/Chaven.png",
+    "alt": "alt Raven - Teans Titan Go",
+    "place": "montage",
+    "titre": "Chaven",
+    "description": ""
+  },
+  {
+    "image": "images/Chavirou.png",
+    "alt": "alt Navirou - Monster Hunter",
+    "place": "montage",
+    "titre": "Chavirou",
+    "description": ""
+  },
+  {
+    "image": "images/Chawr Chura.png",
+    "alt": "alt ??? - ???",
+    "place": "montage",
+    "titre": "Chawr Chura",
+    "description": ""
+  },
+  {
+    "image": "images/Chazu.png",
+    "alt": "alt Zazu - Le Roi Lion",
+    "place": "montage",
+    "titre": "Chazu",
+    "description": ""
+  },
+  {
+    "image": "images/Cheadard.png",
+    "alt": "alt Coil-Head - Lethal Compagny",
+    "place": "montage",
+    "titre": "Choil-Head",
+    "description": ""
+  },
+  {
+    "image": "images/Chealth Elf.png",
+    "alt": "alt Stealth Elf - Skylanders",
+    "place": "montage",
+    "titre": "Chealth Elf",
+    "description": ""
+  },
+  {
+    "image": "images/Cheemie.png",
+    "alt": "alt Teemie - Undertale",
+    "place": "montage",
+    "titre": "Cheemie",
+    "description": ""
+  },
+  {
+    "image": "images/Cheimerdinguer.png",
+    "alt": "alt Heimerdinguer - Arcane",
+    "place": "montage",
+    "titre": "Cheimerdinguer",
+    "description": ""
+  },
+  {
+    "image": "images/Cheimerdinguer.png",
+    "alt": "alt Heimerdinguer - Arcane",
+    "place": "montage",
+    "titre": "Cheimerdinguer",
+    "description": ""
+  },
+  {
+    "image": "images/Chélestriard.png",
+    "alt": "alt Célestrier - The legend of Zelda",
+    "place": "montage",
+    "titre": "Chélestriard",
+    "description": ""
+  },
+  {
+    "image": "images/Chemmet.png",
+    "alt": "alt Hemmet - Lego",
+    "place": "montage",
+    "titre": "Chemmet",
+    "description": ""
+  },
+  {
+    "image": "images/Chengubre.png",
+    "alt": "alt Tengubre - Yokai Watch",
+    "place": "montage",
+    "titre": "Chengubre",
+    "description": ""
+  },
+  {
+    "image": "images/Cherdly.png",
+    "alt": "alt Berdly - Deltarune",
+    "place": "montage",
+    "titre": "Cherdly",
+    "description": ""
+  },
+  {
+    "image": "images/Cheureka.png",
+    "alt": "alt Eureka - La petite Sirène",
+    "place": "montage",
+    "titre": "Cheureka",
+    "description": ""
+  },
+  {
+    "image": "images/Chevalier Chanard.png",
+    "alt": "alt Défenseur Bousier - Hollow Knight",
+    "place": "montage",
+    "titre": "Chevalier Chanard",
+    "description": ""
+  },
+  {
+    "image": "images/Chiaousclé Midas.png",
+    "alt": "alt Miaousclé Midas - Fornite",
+    "place": "montage",
+    "titre": "Chiaousclé Midas",
+    "description": ""
+  },
+  {
+    "image": "images/Chichiru Kagemori.png",
+    "alt": "alt Michiru Kagemori - BNA: Brand New Animal",
+    "place": "montage",
+    "titre": "Chichiru Kagemori",
+    "description": ""
+  },
+  {
+    "image": "images/Chichu.png",
+    "alt": "alt Pichu - Les mystérieuses Cité d'Or",
+    "place": "montage",
+    "titre": "Chichu",
+    "description": ""
+  },
+  {
+    "image": "images/Chicsou.png",
+    "alt": "alt - Picsou",
+    "place": "montage",
+    "titre": "Chicsou",
+    "description": ""
+  },
+  {
+    "image": "images/Ectochanard.png",
+    "alt": "alt Ectochien - Luigi Mansion",
+    "place": "montage",
+    "titre": "Ectochanard",
+    "description": ""
+  },
+  {
+    "image": "images/Chikey.png",
+    "alt": "alt - Mickey",
+    "place": "montage",
+    "titre": "Chikey",
+    "description": ""
+  },
+  {
+    "image": "images/Chiktomisaure.png",
+    "alt": "alt Iktomisaurus - Genshin Impact",
+    "place": "montage",
+    "titre": "Chiktomisaure",
+    "description": ""
+  },
+  {
+    "image": "images/Childa.png",
+    "alt": "alt Hilda - ???",
+    "place": "montage",
+    "titre": "Childa",
+    "description": ""
+  },
+  {
+    "image": "images/China.png",
+    "alt": "alt Pina - SAO Sword Art Online",
+    "place": "montage",
+    "titre": "China",
+    "description": ""
+  },
+  {
+    "image": "images/Chink Cartoons.png",
+    "alt": "alt Link Cartoons - The legend of Zelda",
+    "place": "montage",
+    "titre": "Chink Cartoons",
+    "description": ""
+  },
+  {
+    "image": "images/Chink.png",
+    "alt": "alt Link - The legend of Zelda",
+    "place": "montage",
+    "titre": "Chink",
+    "description": ""
+  },
+  {
+    "image": "images/Chinnamoroll.png",
+    "alt": "alt - Cinnamoroll",
+    "place": "montage",
+    "titre": "Chinnamoroll",
+    "description": ""
+  },
 
-  <img class="smallThumb hauteur" src="images\Chanarosado.png">
-  <img class="smallThumb hauteur" src="images\Chaney.png">
-  <img class="smallThumb hauteur" src="images\Changel Dust.png">
-  <img class="smallThumb hauteur" src="images\Channi.png">
-  <img class="smallThumb largeur" src="images\Chanondorf.png">
-  <img class="smallThumb hauteur" src="images\Chanoomba.png">
-  <img class="smallThumb hauteur" src="images\Chans.png">
-  <img class="smallThumb hauteur" src="images\Chanyrus.png">
-  <img class="smallThumb hauteur" src="images\Chaphet.png">
-  <img class="smallThumb largeur" src="images\Chappa.png">
-  <img class="smallThumb hauteur" src="images\Chappeee.png">
-  <img class="smallThumb hauteur" src="images\Chaqueen.png">
-  <img class="smallThumb largeur" src="images\Charboss.png">
-  <img class="smallThumb hauteur" src="images\Chardevoir.png">
-  <img class="smallThumb hauteur" src="images\Charie.png">
-  <img class="smallThumb hauteur" src="images\Charo.png">
-  <img class="smallThumb hauteur" src="images\Charonica.png">
-  <img class="smallThumb hauteur" src="images\Chasalina.png">
-  <img class="smallThumb hauteur" src="images\Chataro.png">
-  <img class="smallThumb hauteur" src="images\Chatewaki Kunard.png">
-  <img class="smallThumb largeur" src="images\Chathalos.png">
-  <img class="smallThumb hauteur" src="images\Chatsuko.png">
-  <img class="smallThumb hauteur" src="images\Chava.png">
-  <img class="smallThumb hauteur" src="images\Chaven.png">
-  <img class="smallThumb largeur" src="images\Chavirou.png">
-  <img class="smallThumb hauteur" src="images\Chawr Chura.png">
-  <img class="smallThumb hauteur" src="images\Chazu.png">
-  <img class="smallThumb hauteur" src="images\Cheadard.png">
-  <img class="smallThumb largeur" src="images\Chealth Elf.png">
-  <img class="smallThumb hauteur lowQuality" src="images\Cheemie.png">
-  <img class="smallThumb hauteur" src="images\Cheimerdinguer.png">
-  <img class="smallThumb largeur" src="images\Chélestriard.png">
-  <img class="smallThumb hauteur" src="images\Chemmet.png">
-  <img class="smallThumb hauteur" src="images\Chengubre.png">
-  <img class="smallThumb hauteur" src="images\Cherdly.png">
-  <img class="smallThumb hauteur lowQuality" src="images\Cheureka.png">
-  <img class="smallThumb hauteur" src="images\Chevalier Chanard.png">
-  <img class="smallThumb hauteur" src="images\Chiaousclé Midas.png">
-  <img class="smallThumb hauteur" src="images\Chichiru Kagemori.png">
-  <img class="smallThumb largeur" src="images\Chichu.png">
-  <img class="smallThumb hauteur" src="images\Chicsou.png">
-  <img class="smallThumb hauteur" src="images\Ectochanard.png">
-  <img class="smallThumb hauteur" src="images\Chikey.png">
-  <img class="smallThumb largeur" src="images\Chiktomisaure.png">
-  <img class="smallThumb hauteur" src="images\Childa.png">
-  <img class="smallThumb hauteur" src="images\China.png">
-  <img class="smallThumb hauteur" src="images\Chink Cartoons.png">
-  <img class="smallThumb hauteur" src="images\Chink.png">
   <img class="smallThumb largeur" src="images\Chinnamoroll.png">
   <img class="smallThumb hauteur" src="images\Chio.png">
   <img class="smallThumb largeur" src="images\Chira et Chythra.png">
