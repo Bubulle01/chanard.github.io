@@ -19,6 +19,7 @@ const dessin = document.getElementById("dessin");
 const montage = document.getElementById("montage");
 const fond = document.getElementById("fond");
 
+
 const _dessin = [
   {
     "image": "images/dessin_base/Arthurin.png",
@@ -715,13 +716,6 @@ const _montage = [
     "alt": "alt Teemie - Undertale",
     
     "titre": "Cheemie",
-    "description": ""
-  },
-  {
-    "image": "images/Cheimerdinguer.png",
-    "alt": "alt Heimerdinguer - Arcane",
-    
-    "titre": "Cheimerdinguer",
     "description": ""
   },
   {
@@ -1687,18 +1681,21 @@ fetch('_dessin.json')
             const img = document.createElement('img');
             img.src = `${item.image}`;
             img.alt = `${item.alt}`;
-            if (img.naturalWidth < img.naturalHeight) {
-                img.className = 'smallThumb hauteur';
-            }
-            else {
-                img.className = 'smallThumb largeur';
-            }
         /*
             if (img.naturalWidth + img.naturalHeight < 1000) {
                 img.classList.add("lowQuality");
             }
         */
+            img.classList.add("smallThumb");
             dessin.appendChild(img);
+            img.onload = () => {
+                if (img.naturalWidth > img.naturalHeight) {
+                    img.classList.add("largeur");
+                }
+                else {
+                    img.classList.add("hauteur");
+                }
+            }
             console.log("spawn dessin ", `${item.image}`, " / largeur : ", img.naturalWidth, " / hauteur : ", img.naturalHeight);
         });
 /*
@@ -1715,19 +1712,22 @@ fetch('_montage.json')
             const img = document.createElement('img');
             img.src = `${item.image}`;
             img.alt = `${item.alt}`;
-            if (img.width < img.height) {
-                img.className = 'smallThumb hauteur';
-            }
-            else {
-                img.className = 'smallThumb largeur';
-            }
         /*
             if (img.naturalWidth + img.naturalHeight < 1000) {
                 img.classList.add("lowQuality");
             }
         */
+            img.classList.add("smallThumb");
             montage.appendChild(img);
-            console.log("spawn montage ", `${item.image}`, " / largeur : ", img.width, " / hauteur : ", img.height);
+            img.onload = () => {
+                if (img.naturalWidth > img.naturalHeight) {
+                    img.classList.add("largeur");
+                }
+                else {
+                    img.classList.add("hauteur");
+                }
+            }
+            console.log("spawn montage ", `${item.image}`, " / largeur : ", img.naturalWidth, " / hauteur : ", img.naturalHeight);
         });
 /*
     });
@@ -1744,13 +1744,16 @@ fetch('_fond.json')
             const img = document.createElement('img');
             img.src = `${item.image}`;
             img.alt = `${item.alt}`;
-            if (img.Width < img.Height) {
-                img.className = 'smallThumb hauteur';
-            }
-            else {
-                img.className = 'smallThumb largeur';
-            }
+            img.classList.add("smallThumb");
             fond.appendChild(img);
+            img.onload = () => {
+                if (img.naturalWidth > img.naturalHeight) {
+                    img.classList.add("largeur");
+                }
+                else {
+                    img.classList.add("hauteur");
+                }
+            }
             console.log("spawn fond ", `${item.image}`, " / largeur : ", img.Width, " / hauteur : ", img.Height);
         });
 /*

@@ -399,6 +399,7 @@ hr::after {
 /* Pour l'affichage des image en zoomer */
 
 .smallThumb {
+    display: block;
     transition-duration:.1s;
 }
 
