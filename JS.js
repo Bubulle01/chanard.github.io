@@ -15,9 +15,12 @@ const title_desc = document.getElementById("title_desc");
 const desc = document.getElementById("desc");
 const dossIcoFav = document.getElementById("dossIcoFav");
 
+const refshit = document.getElementById("refshit");
 const dessin = document.getElementById("dessin");
 const montage = document.getElementById("montage");
 const fond = document.getElementById("fond");
+const amiibo = document.getElementById("amiibo");
+
 
 
 const _dessin = [
@@ -1669,6 +1672,22 @@ const _fond = [
   }
 ]
 
+const _autre = [
+  {
+    "image": "images/dessin_base/Chanard Refshit.png",
+    "alt": "alt Chanard Refshit",
+    "titre": "Chanard",
+    "description": ""
+  },
+  {
+    "image": "images/fond_ecran/Table d'Amiibo.png",
+    "alt": "alt table Amiibo",
+    "titre": "Table d'Amiibo",
+    "description": ""
+  }
+]
+
+
 /* Démarre le JSON pour l'application automatisé des images */
 
 //dessin.json
@@ -1760,6 +1779,32 @@ fetch('_fond.json')
     });
 */
 
+//autre.json
+/*
+fetch('_autre.json')
+    .then(response => response.json())
+    .then(_autre => {
+*/
+        _autre.forEach(item => {
+            const img = document.createElement('img');
+            img.src = `${item.image}`;
+            img.alt = `${item.alt}`;
+            img.classList.add("smallThumb");
+            img.classList.add("table");
+
+            if (`${item.titre}` == "Chanard") {
+                refshit.appendChild(img);
+            }
+            else if (`${item.titre}` == "Table d'Amiibo") {
+                amiibo.appendChild(img);
+            }
+
+            console.log("spawn autre ", `${item.image}`, " / largeur : ", img.Width, " / hauteur : ", img.Height);
+        });
+/*
+    });
+*/
+
 
 const thumbnails = document.querySelectorAll(".smallThumb");
 const favNone = document.querySelectorAll(".favNone");
@@ -1767,7 +1812,7 @@ const description = document.querySelector(".description")
 const fond_noir_desc = document.querySelector(".fond_noir_desc")
 
 let favoris = JSON.parse(localStorage.getItem("favoris") || "[]");
-const data = _dessin.concat(_montage).concat(_fond);
+const data = _dessin.concat(_montage).concat(_fond).concat(_autre);
 
 
 /* Système changement de fond d'écran */
