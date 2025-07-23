@@ -7,7 +7,7 @@
 }
 
 :root {
-    --tailleTel: 480px;
+    --tailleTel: 675px;
     --spectralon: #fff;
     --griser: #afafaf;
     --vantablack: #000;
@@ -45,7 +45,7 @@ header {
     background: linear-gradient(180deg, var(--lavenders), var(--lavender));
     padding: 20px 0;
     margin-bottom: -1px;
-    border-radius: clamp(20px, 6vw, 70px);
+    border-radius: clamp(0px, 6vw, 70px);
     border-top-left-radius: 0;
     border-top-right-radius: 0;
 
@@ -61,7 +61,8 @@ header {
         width: 9%;
         float: left;
         transform: rotate(-10deg) translateX(clamp(2vw, 4vw, 5vw));
-        margin-top: 2%;
+        margin-top: clamp(2%, 1vw, 3%);
+        margin-right: clamp(2%, 1vw, 3%);
     }
 }
 
@@ -73,7 +74,7 @@ main {
     border-top-right-radius: 0;
 
     & .titre {
-        margin-top: 90px;
+        margin-top: clamp(0px, 4vw, 90px);
     }
 }
 
@@ -117,7 +118,7 @@ footer {
 }
 
 h1 {
-    font-size: clamp(20px, 6vw, 7em);
+    font-size: clamp(0px, 6vw, 7em);
     font-style: italic;
     text-decoration: underline;
     text-align: center;
@@ -127,8 +128,8 @@ h1 {
 h2 {
     color: var(--spectralon);;
     font-style: italic;
-    font-size: clamp(35px, 4vw, 5em);
-    text-indent: 40px;
+    font-size: clamp(0px, 10vw, 5em);
+    text-indent: clamp(10px, 4vw, 40px);
     margin: 15px;
 }
 
@@ -177,10 +178,10 @@ a:hover {
 button {
     background-color: var(--spectralon);
     color: var(--vantablack);
-    height: clamp(30px, 7vw, 50px);
-    width: clamp(80px, 15vw, 150px);
+    height: clamp(0px, 7vw, 50px);
+    width: clamp(0px, 15vw, 150px);
     border-radius: 25px;
-    font-size: clamp(20px, 4vw, 35px);
+    font-size: clamp(0px, 4vw, 35px);
     border: 0;
     transition-duration: 0.2s;
     cursor: pointer;
@@ -201,7 +202,7 @@ body > nav {
     align-items: center;
     background: linear-gradient(180deg, var(--lavender), var(--lavenders));
     margin: 0px;
-    padding: 15px clamp(0px, 1vw, 25px);
+    padding: clamp(0px, 1vw, 15px) clamp(0px, 1vw, 25px);
     box-shadow: var(--shadow) 0 20px 30px;
     position: sticky;
     top: 0;
@@ -237,12 +238,12 @@ body > nav {
 
 @media (max-width: 440px) {
     body > nav > div:nth-child(2) > * {
-        height: 45px!important;
+        height: clamp(0px, 15vw, 45px)!important;
         width: auto!important;
     }
 
     #buttonchange > * {
-        height: 45px!important;
+        height: clamp(0px, 15vw, 45px)!important;
         width: auto!important;
     }
 }
@@ -252,25 +253,25 @@ body > nav {
     display: grid;
     grid-template-columns: 24% 24% 24% 24%;
     grid-auto-rows: 23vw;
-    grid-gap: 60px 20px;
-    margin: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
+    row-gap: clamp(30px, 4vw, 60px);
+    column-gap: clamp(15px, 4vw, 1.5%);
+    margin: clamp(0px, 3vw, 20px);
+    padding: 0px clamp(0px, 3vw, 20px);
 }
 
 .grid2 {
     display: grid;
-    grid-template-columns: 49.5% 49.5%;
+    grid-template-columns: 48.5% 48.5%;
     grid-row: inherit;
-    grid-gap: clamp(30px, 4vw, 60px) clamp(15px, 4vw, 30px);
-    margin: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
+    row-gap: clamp(30px, 4vw, 60px);
+    column-gap: clamp(15px, 4vw, 3%);
+    margin: clamp(0px, 3vw, 20px);
+    padding: 0px clamp(0px, 3vw, 20px);
 
     & > img {
         width: 100%;
         margin: auto;
-        border-radius: 50px;
+        border-radius: clamp(15px, 4vw, 50px);
         box-shadow: var(--shadow) 0 clamp(5px, 3vw, 20px) clamp(5px, 3vw, 30px);
         background-color: rgba(255, 255, 255, 0.137);
     }
@@ -301,8 +302,8 @@ img {
     width: 90%;
     width: clamp(35px, 90vw, 90%);
     height: auto;
-    margin: 40px auto 80px auto;
-    border-radius: 50px;
+    margin: clamp(0px, 9vw, 40px) auto clamp(0px, 9vw, 80px) auto;
+    border-radius: clamp(15px, 4vw, 50px);
     background-color: rgba(255, 255, 255, 0.137);
     box-shadow: var(--shadow) 0 20px 30px;
 }
@@ -443,24 +444,31 @@ hr::after {
     font-family: 'TrajanPro', serif;
     text-align: center;
     margin: 10px 0;
-    font-size: clamp(1rem, 6vw, 4rem);
+}
+
+@media (max-width: 676px) {
+    #title_desc {
+        font-size: 8vw!important;
+    }
 }
 
 #desc {
     color: var(--spectralon);
     font-family: 'TrajanPro', serif;
     text-align: center;
-    margin: 10px;
+    margin: clamp(0px, 0.5vw, 10px);
     font-size: clamp(0.5rem, 4vw, 2rem);
 }
 
-@media (min-width: 480px) {
+
+@media (min-width: 675px) {
 
     .modal-content {
-        min-width: 30vw;
+        min-width: 25vw;
         max-width: 80%;
         max-height: 80%;
         min-height: 70%;
+        margin-top: 5%;
         object-fit: contain;
         object-position: center;
         transition: all 0.5s ease-in-out;
@@ -486,9 +494,13 @@ hr::after {
         }
     }
 
+    #title_desc {
+        font-size: 5vw!important;
+    }
+
     .modal.active .modal-content {
         transform: translateX(-20vw)!important;
-        max-width: 40vw;
+        max-width: 45vw;
     }
 
     .modal.active .description {
@@ -510,7 +522,7 @@ hr::after {
 
 }
 
-@media (max-width: 480px) {
+@media (max-width: 675px) {
     .modal {
         flex-direction: column;
         overflow: scroll;
@@ -518,7 +530,7 @@ hr::after {
 
     .modal-content {
         position: relative;
-        min-width: 25vw;
+        min-width: 50vw;
         max-width: 90%;
         max-height: 75%;
         transform: translateY(20%);
@@ -557,6 +569,11 @@ hr::after {
         opacity: 1;
         transform: translateY(15%)!important;
     }
+
+    .elementButton > img {
+        width: clamp(0%, 30%, 100%);
+        height: auto;
+    }
 }
 
 
@@ -571,9 +588,8 @@ hr::after {
     margin: 20px;
 
     & > img {
-        width: clamp(50%, 50%, 100%)!important;
-        height: auto!important;
         margin: 0 clamp(5px, 1vw, 20px);
+        height: auto;
 
         &:hover {
             transform: scale(1.10);

@@ -1,6 +1,6 @@
 var width = window.innerWidth;
 var height = window.innerHeight;
-const tailleTel = 480;
+const tailleTel = 675;
 
 const modal = document.getElementById("imageModal");
 const modalImage = document.getElementById("modalImage");
@@ -1709,8 +1709,8 @@ fetch('data.json')
                 else {
                     img.classList.add("hauteur");
                 }
-                if ((img.naturalWidth < img.width) || (img.naturalHeight < img.height)) {
-                  img.classList.add("lowQuality");
+                if (((img.naturalWidth < img.width) || (img.naturalHeight < img.height)) && !(img.src.includes("img_fond/"))) {
+                    img.classList.add("lowQuality");
                 }
             }
             console.log("spawn dessin ", `${item.image}`, " / largeur : ", img.naturalWidth, " / hauteur : ", img.naturalHeight);
