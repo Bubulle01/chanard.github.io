@@ -301,7 +301,7 @@ img {
 .table {
     width: 90%;
     width: clamp(35px, 90vw, 90%);
-    height: auto;
+    height: auto!important;
     margin: clamp(0px, 9vw, 40px) auto clamp(0px, 9vw, 80px) auto;
     border-radius: clamp(15px, 4vw, 50px);
     background-color: rgba(255, 255, 255, 0.137);
@@ -352,7 +352,6 @@ hr::after {
   position: relative;
   top: -13px;
 }
-
 
 .fondcran {
     position: fixed;
@@ -446,6 +445,11 @@ hr::after {
     margin: 10px 0;
 }
 
+.fond {
+    min-height: auto!important;
+}
+
+
 @media (max-width: 676px) {
     #title_desc {
         font-size: 8vw!important;
@@ -516,7 +520,7 @@ hr::after {
     .modal.active2 .description {
         pointer-events: all;
         opacity: 1;
-        transform: translateX(0) translateY(0)!important;
+        transform: translateX(0) translateY(10%)!important;
     }
 
 

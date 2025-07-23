@@ -1788,7 +1788,8 @@ thumbnails.forEach(smallThumb => {
 
         var width = window.innerWidth;
         if ((!smallThumb.closest(".grid4")) && (width >= tailleTel)) {
-            description.style.transform = "translateX(0) translateY(5vh)";
+            description.style.transform = "translateX(0) translateY(10vh)";
+            modalImage.classList.add("fond");
             console.log("mode fond pc");
         }
         else if ((smallThumb.closest(".grid4")) && (width >= tailleTel)) {
@@ -1861,6 +1862,7 @@ modal.addEventListener("click", (event) => {
         retour.src = "images/arrangement/retour-fleche.png";
         modal.classList.remove("active");
         modal.classList.remove("active2");
+        modalImage.classList.remove("fond");
     }
 });
 
