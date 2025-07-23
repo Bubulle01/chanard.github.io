@@ -1690,11 +1690,7 @@ fetch('data.json')
             const img = document.createElement('img');
             img.src = `${item.image}`;
             img.alt = `${item.alt}`;
-        /*
-            if (img.naturalWidth + img.naturalHeight < 1000) {
-                img.classList.add("lowQuality");
-            }
-        */
+        
             img.classList.add("smallThumb");
             if (img.src.includes("dessin_base/")) {
                 dessin.appendChild(img);
@@ -1712,6 +1708,9 @@ fetch('data.json')
                 }
                 else {
                     img.classList.add("hauteur");
+                }
+                if ((img.naturalWidth < img.width) || (img.naturalHeight < img.height)) {
+                  img.classList.add("lowQuality");
                 }
             }
             console.log("spawn dessin ", `${item.image}`, " / largeur : ", img.naturalWidth, " / hauteur : ", img.naturalHeight);
