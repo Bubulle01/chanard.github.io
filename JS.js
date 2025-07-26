@@ -24,6 +24,12 @@ const amiibo = document.getElementById("amiibo");
 
 const data = [
   {
+    "image": "images/img_montage/Chanard scout.png",
+    "alt": "alt Scout - Peak",
+    "titre": "Chanard Scout",
+    "description": ""
+  },
+  {
     "image": "images/dessin_base/Arthurin.png",
     "alt": "alt Arthurin",
     "titre": "Arthurin",
