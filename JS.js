@@ -1588,7 +1588,7 @@ const data = [
   {
     "image": "images/img_fond/David Goodchenough.png",
     "alt": "alt David Goodenough",
-    "titre": "David Goodchenough",
+    "titre": "Chavid Goodenough",
     "description": ""
   },
   {
