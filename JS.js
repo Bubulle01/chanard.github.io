@@ -1,5 +1,6 @@
 var width = window.innerWidth;
 var height = window.innerHeight;
+let placementBase;
 const tailleTel = 675;
 
 const modal = document.getElementById("imageModal");
@@ -180,7 +181,7 @@ const data = [
   {
     "image": "images/img_montage/Chanardeur.png",
     "alt": "alt Canardeur - Enter the Gungeon", 
-    "class": "",
+    "class": "lowQuality",
     "titre": "Chanardeur",
     "description": ""
   },
@@ -264,7 +265,7 @@ const data = [
   {
     "image": "images/img_montage/Brettcha.png",
     "alt": "alt Bretta - HollowKnight", 
-    "class": "",
+    "class": "lowQuality",
     "titre": "Brettcha",
     "description": ""
   },
@@ -292,7 +293,7 @@ const data = [
   {
     "image": "images/img_montage/Chabus.png",
     "alt": "alt Le Dernier Coléoptère - Hollow Knight", 
-    "class": "",
+    "class": "lowQuality",
     "titre": "Chabus",
     "description": ""
   },
@@ -397,7 +398,7 @@ const data = [
   {
     "image": "images/img_montage/Chalumeau.png",
     "alt": "alt Chalumeau - ???", 
-    "class": "",
+    "class": "lowQuality",
     "titre": "Chalumeau",
     "description": ""
   },
@@ -410,7 +411,7 @@ const data = [
   },
   {
     "image": "images/img_montage/Chamaloo.png",
-    "alt": "alt ??? - One Piece", 
+    "alt": "alt Kaloo - One Piece", 
     "class": "",
     "titre": "Chamaloo",
     "description": ""
@@ -481,7 +482,7 @@ const data = [
   {
     "image": "images/img_montage/Chanard pikle.png",
     "alt": "alt Rick pikle - Rick et Morty", 
-    "class": "",
+    "class": "lowQuality",
     "titre": "Chanard pikle",
     "description": ""
   },
@@ -523,7 +524,7 @@ const data = [
   {
     "image": "images/img_montage/Chaney.png",
     "alt": "alt Flowey - Undertale", 
-    "class": "",
+    "class": "lowQuality",
     "titre": "Chaney",
     "description": ""
   },
@@ -551,7 +552,7 @@ const data = [
   {
     "image": "images/img_montage/Chanoomba.png",
     "alt": "alt Goomba - Mario Bros", 
-    "class": "",
+    "class": "lowQuality",
     "titre": "Chanoomba",
     "description": ""
   },
@@ -586,7 +587,7 @@ const data = [
   {
     "image": "images/img_montage/Chappeee.png",
     "alt": "alt Insecte Syllogomane - Lethal Compagny", 
-    "class": "",
+    "class": "lowQuality",
     "titre": "Chappeee",
     "description": ""
   },
@@ -663,7 +664,7 @@ const data = [
   {
     "image": "images/img_montage/Chatsuko.png",
     "alt": "alt ??? - ???", 
-    "class": "",
+    "class": "lowQuality",
     "titre": "Chatsuko",
     "description": ""
   },
@@ -684,7 +685,7 @@ const data = [
   {
     "image": "images/img_montage/Chavirou.png",
     "alt": "alt Navirou - Monster Hunter", 
-    "class": "",
+    "class": "lowQuality",
     "titre": "Chavirou",
     "description": ""
   },
@@ -698,7 +699,7 @@ const data = [
   {
     "image": "images/img_montage/Chazu.png",
     "alt": "alt Zazu - Le Roi Lion", 
-    "class": "",
+    "class": "lowQuality",
     "titre": "Chazu",
     "description": ""
   },
@@ -719,7 +720,7 @@ const data = [
   {
     "image": "images/img_montage/Cheemie.png",
     "alt": "alt Teemie - Undertale", 
-    "class": "",
+    "class": "lowQuality",
     "titre": "Cheemie",
     "description": ""
   },
@@ -747,7 +748,7 @@ const data = [
   {
     "image": "images/img_montage/Chengubre.png",
     "alt": "alt Tengubre - Yokai Watch", 
-    "class": "",
+    "class": "lowQuality",
     "titre": "Chengubre",
     "description": ""
   },
@@ -761,7 +762,7 @@ const data = [
   {
     "image": "images/img_montage/Cheureka.png",
     "alt": "alt Eureka - La petite Sirène", 
-    "class": "",
+    "class": "lowQuality",
     "titre": "Cheureka",
     "description": ""
   },
@@ -831,7 +832,7 @@ const data = [
   {
     "image": "images/img_montage/China.png",
     "alt": "alt Pina - SAO Sword Art Online", 
-    "class": "",
+    "class": "lowQuality",
     "titre": "China",
     "description": ""
   },
@@ -873,7 +874,7 @@ const data = [
   {
     "image": "images/img_montage/Chirbo.png",
     "alt": "alt - Kirby", 
-    "class": "",
+    "class": "lowQuality",
     "titre": "Chirbo",
     "description": ""
   },
@@ -908,14 +909,14 @@ const data = [
   {
     "image": "images/img_montage/Chlewbird.png",
     "alt": "alt ??? - Mario Bros", 
-    "class": "",
+    "class": "lowQuality",
     "titre": "Chlewbird",
     "description": ""
   },
   {
     "image": "images/img_montage/Chluke Hermit.png",
     "alt": "alt Fluke Hermit - Hollow Knight", 
-    "class": "",
+    "class": "lowQuality",
     "titre": "Chluke Hermit",
     "description": ""
   },
@@ -929,7 +930,7 @@ const data = [
   {
     "image": "images/img_montage/Choald.png",
     "alt": "alt ??? - Animal Crossing", 
-    "class": "",
+    "class": "lowQuality",
     "titre": "Choald",
     "description": ""
   },
@@ -943,7 +944,7 @@ const data = [
   {
     "image": "images/img_montage/Choeur.png",
     "alt": "alt coeur - Undertale", 
-    "class": "",
+    "class": "lowQuality",
     "titre": "Choeur",
     "description": ""
   },
@@ -1006,7 +1007,7 @@ const data = [
   {
     "image": "images/img_montage/Chornet.png",
     "alt": "alt Hornet - Hollow Knight", 
-    "class": "",
+    "class": "lowQuality",
     "titre": "Chornet",
     "description": ""
   },
@@ -1027,7 +1028,7 @@ const data = [
   {
     "image": "images/img_montage/Choudoudou.png",
     "alt": "alt Rondoudou - Pokémon", 
-    "class": "",
+    "class": "lowQuality",
     "titre": "Choudoudou",
     "description": ""
   },
@@ -1048,7 +1049,7 @@ const data = [
   {
     "image": "images/img_montage/Chpike.png",
     "alt": "alt Chpike - My Little Pony", 
-    "class": "",
+    "class": "lowQuality",
     "titre": "Chpike",
     "description": ""
   },
@@ -1090,7 +1091,7 @@ const data = [
   {
     "image": "images/img_montage/Chunther.png",
     "alt": "alt Gunther - Adventure Time", 
-    "class": "",
+    "class": "lowQuality",
     "titre": "Chunther",
     "description": ""
   },
@@ -1132,7 +1133,7 @@ const data = [
   {
     "image": "images/img_montage/CMO.png",
     "alt": "alt BMO - Adventure Time", 
-    "class": "",
+    "class": "lowQuality",
     "titre": "CMO",
     "description": ""
   },
@@ -1195,14 +1196,14 @@ const data = [
   {
     "image": "images/img_montage/Chalarve.png",
     "alt": "alt Larve - Hollow Knight", 
-    "class": "",
+    "class": "lowQuality",
     "titre": "Chalarve",
     "description": ""
   },
   {
     "image": "images/img_montage/Chalecet.png",
     "alt": "alt Bralecet - Fire Emblem", 
-    "class": "",
+    "class": "lowQuality",
     "titre": "Chalecet",
     "description": ""
   },
@@ -1223,7 +1224,7 @@ const data = [
   {
     "image": "images/img_montage/Chanoussu.png",
     "alt": "alt Moussue - Hollow Knight", 
-    "class": "",
+    "class": "lowQuality",
     "titre": "Chanoussu",
     "description": ""
   },
@@ -1265,7 +1266,7 @@ const data = [
   {
     "image": "images/img_montage/Tasse Chanard.png",
     "alt": "alt Tasse Chanard", 
-    "class": "",
+    "class": "lowQuality",
     "titre": "Tasse Chanard",
     "description": ""
   },
@@ -1279,7 +1280,7 @@ const data = [
   {
     "image": "images/img_montage/Mini Chadam.png",
     "alt": "alt Adam - Hazbin Hotel", 
-    "class": "",
+    "class": "lowQuality",
     "titre": "Mini Chadam",
     "description": ""
   },
@@ -1300,14 +1301,14 @@ const data = [
   {
     "image": "images/img_montage/Patate Chanard.png",
     "alt": "alt Patate", 
-    "class": "",
+    "class": "lowQuality",
     "titre": "Patate Chanard",
     "description": ""
   },
   {
     "image": "images/img_montage/Peter Chaffrin.png",
     "alt": "alt Peter Griffrin - Family Guy", 
-    "class": "",
+    "class": "lowQuality",
     "titre": "Peter Chaffrin",
     "description": ""
   },
@@ -1328,7 +1329,7 @@ const data = [
   {
     "image": "images/img_montage/Poichinard.png",
     "alt": "alt Poichigeon - Pokémon", 
-    "class": "",
+    "class": "lowQuality",
     "titre": "Poichinard",
     "description": ""
   },
@@ -1405,7 +1406,7 @@ const data = [
   {
     "image": "images/img_montage/Chlime.png",
     "alt": "alt Slime Chat - Slime Rancher", 
-    "class": "",
+    "class": "lowQuality",
     "titre": "Chlime",
     "description": ""
   },
@@ -1418,7 +1419,8 @@ const data = [
   },
   {
     "image": "images/img_montage/Sunard.png",
-    "alt": "alt Susie - Deltarune", "titre": "Sunard",
+    "alt": "alt Susie - Deltarune", 
+    "titre": "Sunard",
     "description": ""
   },
   {
@@ -1735,6 +1737,7 @@ let favoris = JSON.parse(localStorage.getItem("favoris") || "[]");
 /* Système changement de fond d'écran */
 let id = 0;
 let list_fond = [
+    "images/gif_fond/Aurores_boreales.gif",    
     "images/gif_fond/Danse_Persona5.gif",
     "images/gif_fond/Zero_Two_Anime_Girl_Dancing.webp",     
     "images/gif_fond/adventure_time.gif",              
@@ -1876,12 +1879,10 @@ modal.addEventListener("click", (event) => {
 document.getElementById("favMenu").onclick = function() {
     if (favMenu.src.endsWith("images/arrangement/etoileMenu.png")) {
         favMenu.src = "images/arrangement/etoileMenu_gold.png"; 
-        
         affFav(true);
     }
     else {
         favMenu.src = "images/arrangement/etoileMenu.png"; 
-        
         affFav(false);
     }
 }
@@ -1900,6 +1901,8 @@ videFav.addEventListener("click", function(event) {
 // Reset le roll Favori page
 function affFav(elem) {
     if (elem) {
+        placementBase = window.scrollY;
+        window.scrollTo(0, 0);
         textFavNone.style.display = "flex"; 
         favNone.forEach(truc => {
             truc.style.display = "none";
@@ -1917,7 +1920,6 @@ function affFav(elem) {
     }
 
     else {
-
         favNone.forEach(truc => {
             truc.style.display = "block";
         });
@@ -1927,6 +1929,7 @@ function affFav(elem) {
         });
 
         textFavNone.style.display = "none"; 
+        window.scrollTo({top: placementBase});
     }
 }
 
