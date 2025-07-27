@@ -2,42 +2,49 @@
   {
     "image": "images/img_montage/Chanard scout.png",
     "alt": "alt Scout - Peak",
+    "class": "",
     "titre": "Chanard Scout",
     "description": ""
   },
   {
     "image": "images/dessin_base/Arthurin.png",
     "alt": "alt Arthurin",
+    "class": "",
     "titre": "Arthurin",
     "description": ""
   },
   {
     "image": "images/dessin_base/Chabatteur.png",
     "alt": "alt Chabatteur",
+    "class": "",
     "titre": "Chabatteur",
     "description": ""
   },
   {
     "image": "images/dessin_base/Dranach.png",
     "alt": "alt Dranach",
+    "class": "",
     "titre": "Dranach",
     "description": ""
   },
   {
     "image": "images/dessin_base/Chanard et son fidèle Panneau.png",
     "alt": "alt Chanard et son fidèle Panneau",
+    "class": "",
     "titre": "Chanard et son fidèle Panneau",
     "description": ""
   },
   {
     "image": "images/dessin_base/Protochanard.png",
     "alt": "alt Protochanard",
+    "class": "",
     "titre": "Protochanard",
     "description": ""
   },
   {
     "image": "images/dessin_base/Choubrette.png",
     "alt": "alt Choubrette",
+    "class": "",
     "titre": "Choubrette",
     "description": ""
   },
@@ -1395,6 +1402,7 @@
   {
     "image": "images/img_montage/Sunard.png",
     "alt": "alt Susie - Deltarune", 
+    "class": "",
     "titre": "Sunard",
     "description": ""
   },
