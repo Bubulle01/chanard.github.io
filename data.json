@@ -43,1401 +43,1399 @@
   },
   {
     "image": "images/img_montage/Chino.png",
-    "alt": "alt Chino",
-    
+    "alt": "alt Chino", 
+    "class": "",
     "titre": "Chino",
     "description": ""
   },
   {
     "image": "images/img_montage/Chedouard.png",
-    "alt": "alt Edouard - Life Fantasy II",
-    
+    "alt": "alt Edouard - Life Fantasy II", 
+    "class": "",
     "titre": "Chedouard",
     "description": ""
   },
   {
     "image": "images/img_montage/Chasteque.png",
-    "alt": "alt oiseau pastèque - Steven Universe",
-    
+    "alt": "alt oiseau pastèque - Steven Universe", 
+    "class": "",
     "titre": "Chasteque",
     "description": ""
   },
   {
     "image": "images/img_montage/Chenry.png",
-    "alt": "alt Henry - Fire Emblem",
-    
+    "alt": "alt Henry - Fire Emblem", 
+    "class": "",
     "titre": "Chenry",
     "description": ""
   },
   {
     "image": "images/img_montage/Chishl.png",
-    "alt": "alt Fishl - Genshin Impact",
-    
+    "alt": "alt Fishl - Genshin Impact", 
+    "class": "",
     "titre": "Chishl",
     "description": ""
   },
   {
     "image": "images/img_montage/Charja.png",
-    "alt": "alt Tarja - Fire Emblem",
-    
+    "alt": "alt Tarja - Fire Emblem", 
+    "class": "",
     "titre": "Charja",
     "description": ""
   },
   {
     "image": "images/img_montage/Chametist.png",
-    "alt": "alt Ametist - Steven Universe",
-    
+    "alt": "alt Ametist - Steven Universe", 
+    "class": "",
     "titre": "Chametist",
     "description": ""
   },
   {
     "image": "images/img_montage/Chion.png",
-    "alt": "alt le lion - Steven Universe",
-    
+    "alt": "alt le lion - Steven Universe", 
+    "class": "",
     "titre": "Chion",
     "description": ""
   },
   {
     "image": "images/img_montage/ChlissTaker.png",
-    "alt": "alt BlissTaker - AK-xolotl",
-    
+    "alt": "alt BlissTaker - AK-xolotl", 
+    "class": "",
     "titre": "ChlissTaker",
     "description": ""
   },
   {
     "image": "images/img_montage/Giant Chapsucker.png",
-    "alt": "alt Giant Sapsucker - Lethal Compagny",
-    
+    "alt": "alt Giant Sapsucker - Lethal Compagny", 
+    "class": "",
     "titre": "Giant Chapsucker",
     "description": ""
   },
   {
     "image": "images/img_montage/Choy.png",
-    "alt": "alt Joy - Cassette Beast",
-    
+    "alt": "alt Joy - Cassette Beast", 
+    "class": "",
     "titre": "Choy",
     "description": ""
   },
   {
     "image": "images/img_montage/Chashley.png",
-    "alt": "alt Ashley - The Coffin of Andy and Leyley",
-    
+    "alt": "alt Ashley - The Coffin of Andy and Leyley", 
+    "class": "",
     "titre": "Chashley",
     "description": ""
   },
   {
     "image": "images/img_montage/Chuneko.png",
-    "alt": "alt Kuneko - Cassette Beast",
-    
+    "alt": "alt Kuneko - Cassette Beast", 
+    "class": "",
     "titre": "Chuneko",
     "description": ""
   },
   {
     "image": "images/img_montage/Chassette.png",
-    "alt": "alt Cassette - Cassette Beast",
-    
+    "alt": "alt Cassette - Cassette Beast", 
+    "class": "lowQuality",
     "titre": "Chassette",
     "description": ""
   },
   {
     "image": "images/img_montage/Charvaillus.png",
-    "alt": "alt Corvaillus - Pokémon",
-    
+    "alt": "alt Corvaillus - Pokémon", 
+    "class": "",
     "titre": "Charvaillus",
     "description": ""
   },
   {
     "image": "images/img_montage/Neverchort.png",
-    "alt": "alt Nevermort - Cassette Beast",
-    
+    "alt": "alt Nevermort - Cassette Beast", 
+    "class": "lowQuality",
     "titre": "Neverchort",
     "description": ""
   },
   {
     "image": "images/img_montage/Chanardeur.png",
-    "alt": "alt Canardeur - Enter the Gungeon",
-    
+    "alt": "alt Canardeur - Enter the Gungeon", 
+    "class": "lowQuality",
     "titre": "Chanardeur",
     "description": ""
   },
   {
     "image": "images/img_montage/Chwig.png",
-    "alt": "alt Chwig - ???",
-    
+    "alt": "alt Chwig - ???", 
+    "class": "",
     "titre": "Chwig",
     "description": ""
   },
   {
     "image": "images/img_montage/Wan Chi Tong.png",
-    "alt": "alt Wan Shi Tong - Avatar",
-    
+    "alt": "alt Wan Shi Tong - Avatar", 
+    "class": "lowQuality",
     "titre": "Wan Chi Tong",
     "description": ""
   },
   {
     "image": "images/img_montage/Chufel.png",
-    "alt": "alt Lufel - Persona",
-    
+    "alt": "alt Lufel - Persona", 
+    "class": "",
     "titre": "Chufel",
     "description": ""
   },
   {
     "image": "images/img_montage/Chuffy.png",
-    "alt": "alt Lufel - Persona",
-    
+    "alt": "alt Lufel - Persona", 
+    "class": "",
     "titre": "Chuffy",
     "description": ""
   },
   {
     "image": "images/img_montage/Adventure Chime.png",
-    "alt": "alt - Adventure Time",
-    
+    "alt": "alt - Adventure Time", 
+    "class": "",
     "titre": "Adventure Chime",
     "description": ""
   },
   {
     "image": "images/img_montage/Adventure with Chanard anxiety.png",
-    "alt": "alt - Adventure with anxiety",
-    
+    "alt": "alt - Adventure with anxiety", 
+    "class": "",
     "titre": "Adventure with Chanard anxiety",
     "description": ""
   },
   {
     "image": "images/img_montage/Angry Chanard.png",
-    "alt": "alt - Angry Bird",
-    
+    "alt": "alt - Angry Bird", 
+    "class": "",
     "titre": "Angry Chanard",
     "description": ""
   },
   {
     "image": "images/img_montage/Banard.png",
-    "alt": "alt Badeline - Céleste",
-    
+    "alt": "alt Badeline - Céleste", 
+    "class": "",
     "titre": "Banard",
     "description": ""
   },
   {
     "image": "images/img_montage/Bancheenard.png",
-    "alt": "alt Bansheep - Cassette Beast",
-    
+    "alt": "alt Bansheep - Cassette Beast", 
+    "class": "",
     "titre": "Bancheenard",
     "description": ""
   },
   {
     "image": "images/img_montage/Banjo-chazooie.png",
-    "alt": "alt - Banjo-Kazooie",
-    
+    "alt": "alt - Banjo-Kazooie", 
+    "class": "",
     "titre": "Banjo-Chazooie",
     "description": ""
   },
   {
     "image": "images/img_montage/Blitcho.png",
-    "alt": "alt Blitzo - Helluva Boss",
-    
+    "alt": "alt Blitzo - Helluva Boss", 
+    "class": "",
     "titre": "Blitcho",
     "description": ""
   },
   {
     "image": "images/img_montage/Brettcha.png",
-    "alt": "alt Bretta - HollowKnight",
-    
+    "alt": "alt Bretta - HollowKnight", 
+    "class": "lowQuality",
     "titre": "Brettcha",
     "description": ""
   },
   {
     "image": "images/img_montage/Chabby.png",
-    "alt": "alt Tabby - Genshin Impact",
-    
+    "alt": "alt Tabby - Genshin Impact", 
+    "class": "",
     "titre": "Chabby",
     "description": ""
   },
   {
     "image": "images/img_montage/Chabil.png",
-    "alt": "alt Babil - The legend of Zelda",
-    
+    "alt": "alt Babil - The legend of Zelda", 
+    "class": "",
     "titre": "Chabil",
     "description": ""
   },
   {
     "image": "images/img_montage/Chabou.png",
-    "alt": "alt Tibou - Animal Crossing",
-    
+    "alt": "alt Tibou - Animal Crossing", 
+    "class": "",
     "titre": "Chabou",
     "description": ""
   },
   {
     "image": "images/img_montage/Chabus.png",
-    "alt": "alt Le Dernier Coléoptère - Hollow Knight",
-    
+    "alt": "alt Le Dernier Coléoptère - Hollow Knight", 
+    "class": "lowQuality",
     "titre": "Chabus",
     "description": ""
   },
   {
     "image": "images/img_montage/Chacaba.png",
-    "alt": "alt Chocobo - Final Fantasy",
-    
+    "alt": "alt Chocobo - Final Fantasy", 
+    "class": "",
     "titre": "Chacaba",
     "description": ""
   },
   {
     "image": "images/img_montage/Chacaw.png",
-    "alt": "alt Chacaw - ???",
-    
+    "alt": "alt Chacaw - ???", 
+    "class": "",
     "titre": "Chacaw",
     "description": ""
   },
   {
     "image": "images/img_montage/Chacholas.png",
-    "alt": "alt Piti Stolas - Helluva Boss",
-    
+    "alt": "alt Piti Stolas - Helluva Boss", 
+    "class": "",
     "titre": "Chacholas",
     "description": ""
   },
   {
     "image": "images/img_montage/Chaepora.png",
-    "alt": "alt Kaepora - The legend of Zelda",
-    
+    "alt": "alt Kaepora - The legend of Zelda", 
+    "class": "",
     "titre": "Chaepora",
     "description": ""
   },
   {
     "image": "images/img_montage/Chainbow Dash.png",
-    "alt": "alt Rainbow Dash - My Little Pony",
-    
+    "alt": "alt Rainbow Dash - My Little Pony", 
+    "class": "",
     "titre": "Chainbow Dash",
     "description": ""
   },
   {
     "image": "images/img_montage/Chaken.png",
-    "alt": "alt Bracken - Lethal Compagny",
-    
+    "alt": "alt Bracken - Lethal Compagny", 
+    "class": "",
     "titre": "Chacken",
     "description": ""
   },
   {
     "image": "images/img_montage/Chako.png",
-    "alt": "alt Niko - One Shot",
-    
+    "alt": "alt Niko - One Shot", 
+    "class": "",
     "titre": "Chako",
     "description": ""
   },
   {
     "image": "images/img_montage/Chalastor.png",
-    "alt": "alt Alastor - Hazbin Hotel",
-    
+    "alt": "alt Alastor - Hazbin Hotel", 
+    "class": "",
     "titre": "Chalastor",
     "description": ""
   },
   {
     "image": "images/img_montage/Chalco.png",
-    "alt": "alt Falco - Chalco",
-    
+    "alt": "alt Falco - Chalco", 
+    "class": "",
     "titre": "Chalco",
     "description": ""
   },
   {
     "image": "images/img_montage/Chaléar.png",
-    "alt": "alt Aléar - Fire Emblem",
-    
+    "alt": "alt Aléar - Fire Emblem", 
+    "class": "",
     "titre": "Chaléar",
     "description": ""
   },
   {
     "image": "images/img_montage/Chaleste.png",
-    "alt": "alt - Céleste",
-    
+    "alt": "alt - Céleste", 
+    "class": "",
     "titre": "Chaleste",
     "description": ""
   },
   {
     "image": "images/img_montage/Chally face.png",
-    "alt": "alt - Sally face",
-    
+    "alt": "alt - Sally face", 
+    "class": "",
     "titre": "Chally face",
     "description": ""
   },
   {
     "image": "images/img_montage/Chaloona.png",
-    "alt": "alt Loona - Helluva Boss",
-    
+    "alt": "alt Loona - Helluva Boss", 
+    "class": "",
     "titre": "Chaloona",
     "description": ""
   },
   {
     "image": "images/img_montage/Chalsei.png",
-    "alt": "alt Ralsei - Deltarune",
-    
+    "alt": "alt Ralsei - Deltarune", 
+    "class": "",
     "titre": "Chalsei",
     "description": ""
   },
   {
     "image": "images/img_montage/Chalumeau.png",
-    "alt": "alt Chalumeau - ???",
-    
+    "alt": "alt Chalumeau - ???", 
+    "class": "lowQuality",
     "titre": "Chalumeau",
     "description": ""
   },
   {
     "image": "images/img_montage/Chamach.png",
-    "alt": "alt ??? - Cult of the Lamb",
-    
+    "alt": "alt ??? - Cult of the Lamb", 
+    "class": "",
     "titre": "Chamach",
     "description": ""
   },
   {
     "image": "images/img_montage/Chamaloo.png",
-    "alt": "alt ??? - One Piece",
-    
+    "alt": "alt Kaloo - One Piece", 
+    "class": "",
     "titre": "Chamaloo",
     "description": ""
   },
   {
     "image": "images/img_montage/chamon.png",
-    "alt": "alt Paimon - Genshin Impact",
-    
+    "alt": "alt Paimon - Genshin Impact", 
+    "class": "",
     "titre": "Chamon",
     "description": ""
   },
   {
     "image": "images/img_montage/Chanane.png",
-    "alt": "alt Chanane - Fornite",
-    
+    "alt": "alt Chanane - Fornite", 
+    "class": "",
     "titre": "Chanane",
     "description": ""
   },
   {
     "image": "images/img_montage/Chanaraïme.png",
-    "alt": "alt ??? - ???",
-    
+    "alt": "alt ??? - ???", 
+    "class": "",
     "titre": "Chanaraïme",
     "description": ""
   },
   {
     "image": "images/img_montage/Chanard babouin.png",
-    "alt": "alt Faucon babouin - Lethal Compagny",
-    
+    "alt": "alt Faucon babouin - Lethal Compagny", 
+    "class": "",
     "titre": "Chanard babouin",
     "description": ""
   },
   {
     "image": "images/img_montage/Chanard Bust Up.png",
-    "alt": "alt ??? - ???",
-    
+    "alt": "alt ??? - ???", 
+    "class": "",
     "titre": "Chanard Bust Up",
     "description": ""
   },
   {
     "image": "images/img_montage/Chanard dans la secte.png",
-    "alt": "alt Chanard dans la secte - Cult of the Lamb",
-    
+    "alt": "alt Chanard dans la secte - Cult of the Lamb", 
+    "class": "",
     "titre": "Chanard dans la secte",
     "description": ""
   },
   {
     "image": "images/img_montage/Chanard de Kiki.png",
-    "alt": "alt Jiji - Kiki la petite sorcière",
-    
+    "alt": "alt Jiji - Kiki la petite sorcière", 
+    "class": "",
     "titre": "Chanard de Kiki",
     "description": ""
   },
   {
     "image": "images/img_montage/Chanard le pompier.png",
-    "alt": "alt - Sam le pompier",
-    
+    "alt": "alt - Sam le pompier", 
+    "class": "",
     "titre": "Chanard le pompier",
     "description": ""
   },
   {
     "image": "images/img_montage/Chanard Nook.png",
-    "alt": "alt Tom Nook - Animal Crossing",
-    
+    "alt": "alt Tom Nook - Animal Crossing", 
+    "class": "",
     "titre": "Chanard Nook",
     "description": ""
   },
   {
     "image": "images/img_montage/Chanard pikle.png",
-    "alt": "alt Rick pikle - Rick et Morty",
-    
+    "alt": "alt Rick pikle - Rick et Morty", 
+    "class": "lowQuality",
     "titre": "Chanard pikle",
     "description": ""
   },
   {
     "image": "images/img_montage/Chingouin.png",
-    "alt": "alt Pingouin skin - ???",
-    
+    "alt": "alt Pingouin skin - ???", 
+    "class": "",
     "titre": "Chingouin",
     "description": ""
   },
   {
     "image": "images/img_montage/Chanard the hawk.png",
-    "alt": "alt Jet the Hawk - Sonic",
-    
+    "alt": "alt Jet the Hawk - Sonic", 
+    "class": "",
     "titre": "Chanard the Hawk",
     "description": ""
   },
   {
     "image": "images/img_montage/Chanarda.png",
-    "alt": "alt Miascarade - Pokémon",
-    
+    "alt": "alt Miascarade - Pokémon", 
+    "class": "",
     "titre": "Chanarda",
     "description": ""
   },
   {
     "image": "images/img_montage/Chanareater.png",
-    "alt": "alt Maneaters - Lethal Compagny",
-    
+    "alt": "alt Maneaters - Lethal Compagny", 
+    "class": "",
     "titre": "Chanareater",
     "description": ""
   },
   {
     "image": "images/img_montage/Chanarosado.png",
-    "alt": "alt Rosado - Fire Emblem",
-    
+    "alt": "alt Rosado - Fire Emblem", 
+    "class": "",
     "titre": "Chanarosado",
     "description": ""
   },
   {
     "image": "images/img_montage/Chaney.png",
-    "alt": "alt Flowey - Undertale",
-    
+    "alt": "alt Flowey - Undertale", 
+    "class": "lowQuality",
     "titre": "Chaney",
     "description": ""
   },
   {
     "image": "images/img_montage/Changel Dust.png",
-    "alt": "alt Angel Dust - Hazbin Hotel",
-    
+    "alt": "alt Angel Dust - Hazbin Hotel", 
+    "class": "",
     "titre": "Changel Dust",
     "description": ""
   },
   {
     "image": "images/img_montage/Channi.png",
-    "alt": "alt Ranni - Elden Ring",
-    
+    "alt": "alt Ranni - Elden Ring", 
+    "class": "",
     "titre": "Channi",
     "description": ""
   },
   {
     "image": "images/img_montage/Chanondorf.png",
-    "alt": "alt Ganondorf - The legend of Zelda",
-    
+    "alt": "alt Ganondorf - The legend of Zelda", 
+    "class": "",
     "titre": "Chanondorf",
     "description": ""
   },
   {
     "image": "images/img_montage/Chanoomba.png",
-    "alt": "alt Goomba - Mario Bros",
-    
+    "alt": "alt Goomba - Mario Bros", 
+    "class": "lowQuality",
     "titre": "Chanoomba",
     "description": ""
   },
   {
     "image": "images/img_montage/Chans.png",
-    "alt": "alt Sans - Undertale",
-    
+    "alt": "alt Sans - Undertale", 
+    "class": "",
     "titre": "Chans",
     "description": ""
   },
   {
     "image": "images/img_montage/Chanyrus.png",
-    "alt": "alt Papyrus - Undertale",
-    
+    "alt": "alt Papyrus - Undertale", 
+    "class": "",
     "titre": "Chanyrus",
     "description": ""
   },
   {
     "image": "images/img_montage/Chaphet.png",
-    "alt": "alt ??? - ???",
-    
+    "alt": "alt ??? - ???", 
+    "class": "",
     "titre": "Chaphet",
     "description": ""
   },
   {
     "image": "images/img_montage/Chappa.png",
-    "alt": "alt Appa - Avatar",
-    
+    "alt": "alt Appa - Avatar", 
+    "class": "",
     "titre": "Chappa",
     "description": ""
   },
   {
     "image": "images/img_montage/Chappeee.png",
-    "alt": "alt Insecte Syllogomane - Lethal Compagny",
-    
+    "alt": "alt Insecte Syllogomane - Lethal Compagny", 
+    "class": "",
     "titre": "Chappeee",
     "description": ""
   },
   {
     "image": "images/img_montage/Chaqueen.png",
-    "alt": "alt Queen - Deltatune",
-    
+    "alt": "alt Queen - Deltatune", 
+    "class": "",
     "titre": "Chween",
     "description": ""
   },
   {
     "image": "images/img_montage/Charboss.png",
-    "alt": "alt Corboss - Pokémon",
-    
+    "alt": "alt Corboss - Pokémon", 
+    "class": "",
     "titre": "Charboss",
     "description": ""
   },
   {
     "image": "images/img_montage/Chardevoir.png",
-    "alt": "alt Gardevoir - Pokémon",
-    
+    "alt": "alt Gardevoir - Pokémon", 
+    "class": "",
     "titre": "Chardevoir",
     "description": ""
   },
   {
     "image": "images/img_montage/Charie.png",
-    "alt": "alt Marie - Animal Crossing",
-    
+    "alt": "alt Marie - Animal Crossing", 
+    "class": "",
     "titre": "Charie",
     "description": ""
   },
   {
     "image": "images/img_montage/Charo.png",
-    "alt": "alt ??? - Cult of the Lamb",
-    
+    "alt": "alt ??? - Cult of the Lamb", 
+    "class": "",
     "titre": "Charo",
     "description": ""
   },
   {
     "image": "images/img_montage/Charonica.png",
-    "alt": "alt ??? - Fire Emblem",
-    
+    "alt": "alt ??? - Fire Emblem", 
+    "class": "",
     "titre": "Charonica",
     "description": ""
   },
   {
     "image": "images/img_montage/Chasalina.png",
-    "alt": "alt Harmonie - Mario Bros",
-    
+    "alt": "alt Harmonie - Mario Bros", 
+    "class": "",
     "titre": "Chasalina",
     "description": ""
   },
   {
     "image": "images/img_montage/Chataro.png",
-    "alt": "alt Jotaro - Jojo Bizarre Aventure",
-    
+    "alt": "alt Jotaro - Jojo Bizarre Aventure", 
+    "class": "",
     "titre": "Chataro",
     "description": ""
   },
   {
     "image": "images/img_montage/Chatewaki Kunard.png",
-    "alt": "alt ??? - Ranma 1/2",
-    
+    "alt": "alt ??? - Ranma 1/2", 
+    "class": "",
     "titre": "Chatewaki Kunard",
     "description": ""
   },
   {
     "image": "images/img_montage/Chathalos.png",
-    "alt": "alt Rathalos - Monster Hunter",
-    
+    "alt": "alt Rathalos - Monster Hunter", 
+    "class": "",
     "titre": "Chathalos",
     "description": ""
   },
   {
     "image": "images/img_montage/Chatsuko.png",
-    "alt": "alt ??? - ???",
-    
+    "alt": "alt ??? - ???", 
+    "class": "",
     "titre": "Chatsuko",
     "description": ""
   },
   {
     "image": "images/img_montage/Chava.png",
-    "alt": "alt Ava - Fornite",
-    
+    "alt": "alt Ava - Fornite", 
+    "class": "",
     "titre": "Chava",
     "description": ""
   },
   {
     "image": "images/img_montage/Chaven.png",
-    "alt": "alt Raven - Teans Titan Go",
-    
+    "alt": "alt Raven - Teans Titan Go", 
+    "class": "",
     "titre": "Chaven",
     "description": ""
   },
   {
     "image": "images/img_montage/Chavirou.png",
-    "alt": "alt Navirou - Monster Hunter",
-    
+    "alt": "alt Navirou - Monster Hunter", 
+    "class": "",
     "titre": "Chavirou",
     "description": ""
   },
   {
     "image": "images/img_montage/Chawr Chura.png",
-    "alt": "alt Gawr Gura - ???",
-    
+    "alt": "alt Gawr Gura - ???", 
+    "class": "",
     "titre": "Chawr Chura",
     "description": ""
   },
   {
     "image": "images/img_montage/Chazu.png",
-    "alt": "alt Zazu - Le Roi Lion",
-    
+    "alt": "alt Zazu - Le Roi Lion", 
+    "class": "",
     "titre": "Chazu",
     "description": ""
   },
   {
     "image": "images/img_montage/Cheadard.png",
-    "alt": "alt Coil-Head - Lethal Compagny",
-    
+    "alt": "alt Coil-Head - Lethal Compagny", 
+    "class": "",
     "titre": "Choil-Head",
     "description": ""
   },
   {
     "image": "images/img_montage/Chealth Elf.png",
-    "alt": "alt Stealth Elf - Skylanders",
-    
+    "alt": "alt Stealth Elf - Skylanders", 
+    "class": "",
     "titre": "Chealth Elf",
     "description": ""
   },
   {
     "image": "images/img_montage/Cheemie.png",
-    "alt": "alt Teemie - Undertale",
-    
+    "alt": "alt Teemie - Undertale", 
+    "class": "lowQuality",
     "titre": "Cheemie",
     "description": ""
   },
   {
     "image": "images/img_montage/Cheimerdinguer.png",
-    "alt": "alt Heimerdinguer - Arcane",
-    
+    "alt": "alt Heimerdinguer - Arcane", 
+    "class": "",
     "titre": "Cheimerdinguer",
     "description": ""
   },
   {
     "image": "images/img_montage/Chélestriard.png",
-    "alt": "alt Célestrier - The legend of Zelda",
-    
+    "alt": "alt Célestrier - The legend of Zelda", 
+    "class": "",
     "titre": "Chélestriard",
     "description": ""
   },
   {
     "image": "images/img_montage/Chemmet.png",
-    "alt": "alt Hemmet - Lego",
-    
+    "alt": "alt Hemmet - Lego", 
+    "class": "",
     "titre": "Chemmet",
     "description": ""
   },
   {
     "image": "images/img_montage/Chengubre.png",
-    "alt": "alt Tengubre - Yokai Watch",
-    
+    "alt": "alt Tengubre - Yokai Watch", 
+    "class": "",
     "titre": "Chengubre",
     "description": ""
   },
   {
     "image": "images/img_montage/Cherdly.png",
-    "alt": "alt Berdly - Deltarune",
-    
+    "alt": "alt Berdly - Deltarune", 
+    "class": "",
     "titre": "Cherdly",
     "description": ""
   },
   {
     "image": "images/img_montage/Cheureka.png",
-    "alt": "alt Eureka - La petite Sirène",
-    
+    "alt": "alt Eureka - La petite Sirène", 
+    "class": "",
     "titre": "Cheureka",
     "description": ""
   },
   {
     "image": "images/img_montage/Chevalier Chanard.png",
-    "alt": "alt Défenseur Bousier - Hollow Knight",
-    
+    "alt": "alt Défenseur Bousier - Hollow Knight", 
+    "class": "",
     "titre": "Chevalier Chanard",
     "description": ""
   },
   {
     "image": "images/img_montage/Chiaousclé Midas.png",
-    "alt": "alt Miaousclé Midas - Fornite",
-    
+    "alt": "alt Miaousclé Midas - Fornite", 
+    "class": "",
     "titre": "Chiaousclé Midas",
     "description": ""
   },
   {
     "image": "images/img_montage/Chichiru Kagemori.png",
-    "alt": "alt Michiru Kagemori - BNA: Brand New Animal",
-    
+    "alt": "alt Michiru Kagemori - BNA: Brand New Animal", 
+    "class": "",
     "titre": "Chichiru Kagemori",
     "description": ""
   },
   {
     "image": "images/img_montage/Chichu.png",
-    "alt": "alt Pichu - Les mystérieuses Cité d'Or",
-    
+    "alt": "alt Pichu - Les mystérieuses Cité d'Or", 
+    "class": "",
     "titre": "Chichu",
     "description": ""
   },
   {
     "image": "images/img_montage/Chicsou.png",
-    "alt": "alt - Picsou",
-    
+    "alt": "alt - Picsou", 
+    "class": "",
     "titre": "Chicsou",
     "description": ""
   },
   {
     "image": "images/img_montage/Ectochanard.png",
-    "alt": "alt Ectochien - Luigi Mansion",
-    
+    "alt": "alt Ectochien - Luigi Mansion", 
+    "class": "",
     "titre": "Ectochanard",
     "description": ""
   },
   {
     "image": "images/img_montage/Chikey.png",
-    "alt": "alt - Mickey",
-    
+    "alt": "alt - Mickey", 
+    "class": "",
     "titre": "Chikey",
     "description": ""
   },
   {
     "image": "images/img_montage/Chiktomisaure.png",
-    "alt": "alt Iktomisaurus - Genshin Impact",
-    
+    "alt": "alt Iktomisaurus - Genshin Impact", 
+    "class": "",
     "titre": "Chiktomisaure",
     "description": ""
   },
   {
     "image": "images/img_montage/Childa.png",
-    "alt": "alt Hilda - ???",
-    
+    "alt": "alt Hilda - ???", 
+    "class": "",
     "titre": "Childa",
     "description": ""
   },
   {
     "image": "images/img_montage/China.png",
-    "alt": "alt Pina - SAO Sword Art Online",
-    
+    "alt": "alt Pina - SAO Sword Art Online", 
+    "class": "",
     "titre": "China",
     "description": ""
   },
   {
     "image": "images/img_montage/Chink Cartoons.png",
-    "alt": "alt Link Cartoons - The legend of Zelda",
-    
+    "alt": "alt Link Cartoons - The legend of Zelda", 
+    "class": "",
     "titre": "Chink Cartoons",
     "description": ""
   },
   {
     "image": "images/img_montage/Chink.png",
-    "alt": "alt Link - The legend of Zelda",
-    
+    "alt": "alt Link - The legend of Zelda", 
+    "class": "",
     "titre": "Chink",
     "description": ""
   },
   {
     "image": "images/img_montage/Chinnamoroll.png",
-    "alt": "alt - Cinnamoroll",
-    
+    "alt": "alt - Cinnamoroll", 
+    "class": "",
     "titre": "Chinnamoroll",
     "description": ""
   },
   {
     "image": "images/img_montage/Chio.png",
-    "alt": "alt Dio - Jojo Bizarre Aventure",
-    
+    "alt": "alt Dio - Jojo Bizarre Aventure", 
+    "class": "",
     "titre": "Chio",
     "description": ""
   },
   {
     "image": "images/img_montage/Chira et Chythra.png",
-    "alt": "alt Pira et Mythra - Xenoblade Chronicles",
-    
+    "alt": "alt Pira et Mythra - Xenoblade Chronicles", 
+    "class": "",
     "titre": "Chira et Chythra",
     "description": ""
   },
   {
     "image": "images/img_montage/Chirbo.png",
-    "alt": "alt - Kirby",
-    
+    "alt": "alt - Kirby", 
+    "class": "lowQuality",
     "titre": "Chirbo",
     "description": ""
   },
   {
     "image": "images/img_montage/Chivine.png",
-    "alt": "alt Divine - Hollow Knight",
-    
+    "alt": "alt Divine - Hollow Knight", 
+    "class": "",
     "titre": "Chivine",
     "description": ""
   },
   {
     "image": "images/img_montage/Chizzik.png",
-    "alt": "alt Lizzik - Fornite",
-    
+    "alt": "alt Lizzik - Fornite", 
+    "class": "",
     "titre": "Chizzik",
     "description": ""
   },
   {
     "image": "images/img_montage/Chlaidd.png",
-    "alt": "alt Blaidd - Elden Ring",
-    
+    "alt": "alt Blaidd - Elden Ring", 
+    "class": "",
     "titre": "Chlaidd",
     "description": ""
   },
   {
     "image": "images/img_montage/Chlauneck.png",
-    "alt": "alt ??? - Cult of the Lamb",
-    
+    "alt": "alt ??? - Cult of the Lamb", 
+    "class": "",
     "titre": "Chlauneck",
     "description": ""
   },
   {
     "image": "images/img_montage/Chlewbird.png",
-    "alt": "alt ??? - Mario Bros",
-    
+    "alt": "alt ??? - Mario Bros", 
+    "class": "",
     "titre": "Chlewbird",
     "description": ""
   },
   {
     "image": "images/img_montage/Chluke Hermit.png",
-    "alt": "alt Fluke Hermit - Hollow Knight",
-    
+    "alt": "alt Fluke Hermit - Hollow Knight", 
+    "class": "lowQuality",
     "titre": "Chluke Hermit",
     "description": ""
   },
   {
     "image": "images/img_montage/Cho Cho.png",
-    "alt": "alt Ho-Oh - Pokémon",
-    
+    "alt": "alt Ho-Oh - Pokémon", 
+    "class": "",
     "titre": "Cho-Cho",
     "description": ""
   },
   {
     "image": "images/img_montage/Choald.png",
-    "alt": "alt ??? - Animal Crossing",
-    
+    "alt": "alt ??? - Animal Crossing", 
+    "class": "lowQuality",
     "titre": "Choald",
     "description": ""
   },
   {
     "image": "images/img_montage/Chochogro.png",
-    "alt": "alt - Totoro",
-    
+    "alt": "alt - Totoro", 
+    "class": "",
     "titre": "Chochogro",
     "description": ""
   },
   {
     "image": "images/img_montage/Choeur.png",
-    "alt": "alt coeur - Undertale",
-    
+    "alt": "alt coeur - Undertale", 
+    "class": "lowQuality",
     "titre": "Choeur",
     "description": ""
   },
   {
     "image": "images/img_montage/Choker.png",
-    "alt": "alt Joker - Persona",
-    
+    "alt": "alt Joker - Persona", 
+    "class": "",
     "titre": "Choker",
     "description": ""
   },
   {
     "image": "images/img_montage/Cholas.png",
-    "alt": "alt Stolas - Helluva Boss",
-    
+    "alt": "alt Stolas - Helluva Boss", 
+    "class": "",
     "titre": "Cholas",
     "description": ""
   },
   {
     "image": "images/img_montage/Chollie.png",
-    "alt": "alt ??? - ???",
-    
+    "alt": "alt ??? - ???", 
+    "class": "",
     "titre": "Chollie",
     "description": ""
   },
   {
     "image": "images/img_montage/Chombre.png",
-    "alt": "alt Ombre - Hollow Knight",
-    
+    "alt": "alt Ombre - Hollow Knight", 
+    "class": "",
     "titre": "Chombre",
     "description": ""
   },
   {
     "image": "images/img_montage/Chomokuma.png",
-    "alt": "alt Momokuma - Danganrompa",
-    
+    "alt": "alt Momokuma - Danganrompa", 
+    "class": "",
     "titre": "Chomokuma",
     "description": ""
   },
   {
     "image": "images/img_montage/Chomori.png",
-    "alt": "alt - Omori",
-    
+    "alt": "alt - Omori", 
+    "class": "",
     "titre": "Chomori",
     "description": ""
   },
   {
     "image": "images/img_montage/Chorgana.png",
-    "alt": "alt Morgana - Persona",
-    
+    "alt": "alt Morgana - Persona", 
+    "class": "",
     "titre": "Chorgana",
     "description": ""
   },
   {
     "image": "images/img_montage/Chori.png",
-    "alt": "alt - Ori",
-    
+    "alt": "alt - Ori", 
+    "class": "",
     "titre": "Chori",
     "description": ""
   },
   {
     "image": "images/img_montage/Chornet.png",
-    "alt": "alt Hornet - Hollow Knight",
-    
+    "alt": "alt Hornet - Hollow Knight", 
+    "class": "",
     "titre": "Chornet",
     "description": ""
   },
   {
     "image": "images/img_montage/Chorusto.png",
-    "alt": "alt Rorusto - Animal Crossing",
-    
+    "alt": "alt Rorusto - Animal Crossing", 
+    "class": "",
     "titre": "Chorusto",
     "description": ""
   },
   {
     "image": "images/img_montage/Chote.png",
-    "alt": "alt Zote - Hollow Knight",
-    
+    "alt": "alt Zote - Hollow Knight", 
+    "class": "",
     "titre": "Chote",
     "description": ""
   },
   {
     "image": "images/img_montage/Choudoudou.png",
-    "alt": "alt Rondoudou - Pokémon",
-    
+    "alt": "alt Rondoudou - Pokémon", 
+    "class": "",
     "titre": "Choudoudou",
     "description": ""
   },
   {
     "image": "images/img_montage/Chouge.png",
-    "alt": "alt Rouge - Sonic",
-    
+    "alt": "alt Rouge - Sonic", 
+    "class": "",
     "titre": "Chouge",
     "description": ""
   },
   {
     "image": "images/img_montage/Chounard.png",
-    "alt": "alt Rounard - Animal Crossing",
-    
+    "alt": "alt Rounard - Animal Crossing", 
+    "class": "",
     "titre": "Chounard",
     "description": ""
   },
   {
     "image": "images/img_montage/Chpike.png",
-    "alt": "alt Chpike - My Little Pony",
-    
+    "alt": "alt Chpike - My Little Pony", 
+    "class": "",
     "titre": "Chpike",
     "description": ""
   },
   {
     "image": "images/img_montage/Chucky.png",
-    "alt": "alt Ducky - Smash Legend",
-    
+    "alt": "alt Ducky - Smash Legend", 
+    "class": "",
     "titre": "Chucky",
     "description": ""
   },
   {
     "image": "images/img_montage/Chuigi et Choshi.png",
-    "alt": "alt Luigi Yoshi - Mario Bros",
-    
+    "alt": "alt Luigi Yoshi - Mario Bros", 
+    "class": "",
     "titre": "Chuigi et Choshi",
     "description": ""
   },
   {
     "image": "images/img_montage/Chullivar.png",
-    "alt": "alt Gullivar - Animal Crossing",
-    
+    "alt": "alt Gullivar - Animal Crossing", 
+    "class": "",
     "titre": "Chullivar",
     "description": ""
   },
   {
     "image": "images/img_montage/Chumine.png",
-    "alt": "alt Lumine - Genshin Impact",
-    
+    "alt": "alt Lumine - Genshin Impact", 
+    "class": "",
     "titre": "Chumine",
     "description": ""
   },
   {
     "image": "images/img_montage/Chumper.png",
-    "alt": "alt Thumper - Lethal Compagny",
-    
+    "alt": "alt Thumper - Lethal Compagny", 
+    "class": "",
     "titre": "Chumper",
     "description": ""
   },
   {
     "image": "images/img_montage/Chunther.png",
-    "alt": "alt Gunther - Adventure Time",
-    
+    "alt": "alt Gunther - Adventure Time", 
+    "class": "",
     "titre": "Chunther",
     "description": ""
   },
   {
     "image": "images/img_montage/Churo.png",
-    "alt": "alt Puro - Changed",
-    
+    "alt": "alt Puro - Changed", 
+    "class": "",
     "titre": "Churo",
     "description": ""
   },
   {
     "image": "images/img_montage/Chutaba.png",
-    "alt": "alt Futaba - Persona",
-    
+    "alt": "alt Futaba - Persona", 
+    "class": "",
     "titre": "Chutaba",
     "description": ""
   },
   {
     "image": "images/img_montage/Chutler.png",
-    "alt": "alt Butler - Lethal Compagny",
-    
+    "alt": "alt Butler - Lethal Compagny", 
+    "class": "",
     "titre": "Chutler",
     "description": ""
   },
   {
     "image": "images/img_montage/Chyanja.png",
-    "alt": "alt Nyanja - Fornite",
-    
+    "alt": "alt Nyanja - Fornite", 
+    "class": "",
     "titre": "Chyanja",
     "description": ""
   },
   {
     "image": "images/img_montage/Chyuk.png",
-    "alt": "alt Ryuk - Death Note",
-    
+    "alt": "alt Ryuk - Death Note", 
+    "class": "",
     "titre": "Chyuk",
     "description": ""
   },
   {
     "image": "images/img_montage/CMO.png",
-    "alt": "alt BMO - Adventure Time",
-    
+    "alt": "alt BMO - Adventure Time", 
+    "class": "",
     "titre": "CMO",
     "description": ""
   },
   {
     "image": "images/img_montage/Corvanard.png",
-    "alt": "alt Corvus - Fornite",
-    
+    "alt": "alt Corvus - Fornite", 
+    "class": "",
     "titre": "Corvanard",
     "description": ""
   },
   {
     "image": "images/img_montage/Cult of the Chanard.png",
-    "alt": "alt - Cult of the Lamb",
-    
+    "alt": "alt - Cult of the Lamb", 
+    "class": "",
     "titre": "Cult of the Chanard",
     "description": ""
   },
   {
     "image": "images/img_montage/Daddy Crow v. Chanard.png",
-    "alt": "alt Crow - Everhood",
-    
+    "alt": "alt Crow - Everhood", 
+    "class": "",
     "titre": "Daddy Crow v. Chanard",
     "description": ""
   },
   {
     "image": "images/img_montage/Duo Chanard Hunt.png",
-    "alt": "alt - Duo Duck Hunt",
-    
+    "alt": "alt - Duo Duck Hunt", 
+    "class": "",
     "titre": "Duo Chanard Hunt",
     "description": ""
   },
   {
     "image": "images/img_montage/Flunnard.png",
-    "alt": "alt ??? - Mario Bros",
-    
+    "alt": "alt ??? - Mario Bros", 
+    "class": "",
     "titre": "Flunnard",
     "description": ""
   },
   {
     "image": "images/img_montage/Goro Chakechi.png",
-    "alt": "alt Goro Akechi - Persona",
-    
+    "alt": "alt Goro Akechi - Persona", 
+    "class": "",
     "titre": "Goro Chakechi",
     "description": ""
   },
   {
     "image": "images/img_montage/Hat in Chanard.png",
-    "alt": "alt - Hat in Time",
-    
+    "alt": "alt - Hat in Time", 
+    "class": "",
     "titre": "Hat in Chanard",
     "description": ""
   },
   {
     "image": "images/img_montage/Kranard.png",
-    "alt": "alt Kris - Deltarune",
-    
+    "alt": "alt Kris - Deltarune", 
+    "class": "",
     "titre": "Kranard",
     "description": ""
   },
   {
     "image": "images/img_montage/Chalarve.png",
-    "alt": "alt Larve - Hollow Knight",
-    
+    "alt": "alt Larve - Hollow Knight", 
+    "class": "",
     "titre": "Chalarve",
     "description": ""
   },
   {
     "image": "images/img_montage/Chalecet.png",
-    "alt": "alt Bralecet - Fire Emblem",
-    
+    "alt": "alt Bralecet - Fire Emblem", 
+    "class": "",
     "titre": "Chalecet",
     "description": ""
   },
   {
     "image": "images/img_montage/Chanardeduc.png",
-    "alt": "alt Ardeduc - Pokémon",
-    
+    "alt": "alt Ardeduc - Pokémon", 
+    "class": "",
     "titre": "Chanardeduc",
     "description": ""
   },
   {
     "image": "images/img_montage/Chanolimar.png",
-    "alt": "alt Olimar - Pikmin",
-    
+    "alt": "alt Olimar - Pikmin", 
+    "class": "",
     "titre": "Chanolimar",
     "description": ""
   },
   {
     "image": "images/img_montage/Chanoussu.png",
-    "alt": "alt Moussue - Hollow Knight",
-    
+    "alt": "alt Moussue - Hollow Knight", 
+    "class": "",
     "titre": "Chanoussu",
     "description": ""
   },
   {
     "image": "images/img_montage/Chauru.png",
-    "alt": "alt Rauru - The legend of Zelda",
-    
+    "alt": "alt Rauru - The legend of Zelda", 
+    "class": "",
     "titre": "Chauru",
     "description": ""
   },
   {
     "image": "images/img_montage/Le Grand, Magnifique, Chanarticho.png",
-    "alt": "alt Palarticho - Pokémon",
-    
+    "alt": "alt Palarticho - Pokémon", 
+    "class": "",
     "titre": "Le Grand, Magnifique, Chanarticho",
     "description": ""
   },
   {
     "image": "images/img_montage/Violeur n°2.png",
-    "alt": "alt Le Collectionneur - Hollow Knight",
-    
+    "alt": "alt Le Collectionneur - Hollow Knight", 
+    "class": "",
     "titre": "Violeur n°2",
     "description": ""
   },
   {
     "image": "images/img_montage/Le Chrisonnier.png",
-    "alt": "alt Le Prisonnier - Outer Wilds",
-    
+    "alt": "alt Le Prisonnier - Outer Wilds", 
+    "class": "",
     "titre": "Le Chrisonnier",
     "description": ""
   },
   {
     "image": "images/img_montage/Luchas.png",
-    "alt": "alt Lucas - EarthBound",
-    
+    "alt": "alt Lucas - EarthBound", 
+    "class": "",
     "titre": "Luchas",
     "description": ""
   },
   {
     "image": "images/img_montage/Tasse Chanard.png",
-    "alt": "alt Tasse Chanard",
-    
+    "alt": "alt Tasse Chanard", 
+    "class": "",
     "titre": "Tasse Chanard",
     "description": ""
   },
   {
     "image": "images/img_montage/Maître Chanu.png",
-    "alt": "alt Maître Wu - Kungfu Panda",
-    
+    "alt": "alt Maître Wu - Kungfu Panda", 
+    "class": "",
     "titre": "Maître Chanu",
     "description": ""
   },
   {
     "image": "images/img_montage/Mini Chadam.png",
-    "alt": "alt Adam - Hazbin Hotel",
-    
+    "alt": "alt Adam - Hazbin Hotel", 
+    "class": "",
     "titre": "Mini Chadam",
     "description": ""
   },
   {
     "image": "images/img_montage/Monkey D. Chanard.png",
-    "alt": "alt Monkey D. Luffy - One Piece",
-    
+    "alt": "alt Monkey D. Luffy - One Piece", 
+    "class": "",
     "titre": "Monkey D. Chanard",
     "description": ""
   },
   {
     "image": "images/img_montage/Overchanard.png",
-    "alt": "alt - Overcooked",
-    
+    "alt": "alt - Overcooked", 
+    "class": "",
     "titre": "Overchanard",
     "description": ""
   },
   {
     "image": "images/img_montage/Patate Chanard.png",
-    "alt": "alt Patate",
-    
+    "alt": "alt Patate", 
+    "class": "",
     "titre": "Patate Chanard",
     "description": ""
   },
   {
     "image": "images/img_montage/Peter Chaffrin.png",
-    "alt": "alt Peter Griffrin - Family Guy",
-    
+    "alt": "alt Peter Griffrin - Family Guy", 
+    "class": "",
     "titre": "Peter Chaffrin",
     "description": ""
   },
   {
     "image": "images/img_montage/Peppino Chaghetti.png",
-    "alt": "alt Peppino Spaghetti - Pizza Tower",
-    
+    "alt": "alt Peppino Spaghetti - Pizza Tower", 
+    "class": "",
     "titre": "Peppino Chaghetti",
     "description": ""
   },
   {
     "image": "images/img_montage/Chlumette.png",
-    "alt": "alt Plumette",
-    
+    "alt": "alt Plumette", 
+    "class": "",
     "titre": "Chlumette",
     "description": ""
   },
   {
     "image": "images/img_montage/Poichinard.png",
-    "alt": "alt Poichigeon - Pokémon",
-    
+    "alt": "alt Poichigeon - Pokémon", 
+    "class": "",
     "titre": "Poichinard",
     "description": ""
   },
   {
     "image": "images/img_montage/Prof Chanard.png",
-    "alt": "alt - Professeur Layton",
-    
+    "alt": "alt - Professeur Layton", 
+    "class": "",
     "titre": "Prof Chanard",
     "description": ""
   },
   {
     "image": "images/img_montage/Professeur Charl Tastroff.png",
-    "alt": "alt Professeur Karl Tastroff - Luigi Mansion",
-    
+    "alt": "alt Professeur Karl Tastroff - Luigi Mansion", 
+    "class": "",
     "titre": "Professeur Charl Tastroff",
     "description": ""
   },
   {
     "image": "images/img_montage/Psykochwak.png",
-    "alt": "alt Psykokwak - Pokémon",
-    
+    "alt": "alt Psykokwak - Pokémon", 
+    "class": "",
     "titre": "Psykochwak",
     "description": ""
   },
   {
     "image": "images/img_montage/Chanard Show.png",
-    "alt": "alt - Regular Show",
-    
+    "alt": "alt - Regular Show", 
+    "class": "",
     "titre": "Chanard Show",
     "description": ""
   },
   {
     "image": "images/img_montage/Chevali.png",
-    "alt": "alt Revali - The legend of Zelda",
-    
+    "alt": "alt Revali - The legend of Zelda", 
+    "class": "",
     "titre": "Chevali",
     "description": ""
   },
   {
     "image": "images/img_montage/Roi Charassé.png",
-    "alt": "alt Roi Cuirassé - The legend of Zelda",
-    
+    "alt": "alt Roi Cuirassé - The legend of Zelda", 
+    "class": "",
     "titre": "Roi Charassé",
     "description": ""
   },
   {
     "image": "images/img_montage/Roi des Chlace.png",
-    "alt": "alt Roi des Glace - Adventure Time",
-    
+    "alt": "alt Roi des Glace - Adventure Time", 
+    "class": "",
     "titre": "Roi des Chlace",
     "description": ""
   },
   {
     "image": "images/img_montage/Roronoa Chorro.png",
-    "alt": "alt Roronoa Zorro - One piece",
-    
+    "alt": "alt Roronoa Zorro - One piece", 
+    "class": "",
     "titre": "Roronoa Chorro",
     "description": ""
   },
   {
     "image": "images/img_montage/Ruchanard.png",
-    "alt": "alt Budge - Fornite",
-    
+    "alt": "alt Budge - Fornite", 
+    "class": "",
     "titre": "Chadge",
     "description": ""
   },
   {
     "image": "images/img_montage/Shun-nard.png",
-    "alt": "alt Shun-day - Les Légendaires",
-    
+    "alt": "alt Shun-day - Les Légendaires", 
+    "class": "",
     "titre": "Shun-nard",
     "description": ""
   },
   {
     "image": "images/img_montage/Chlime.png",
-    "alt": "alt Slime Chat - Slime Rancher",
-    
+    "alt": "alt Slime Chat - Slime Rancher", 
+    "class": "",
     "titre": "Chlime",
     "description": ""
   },
   {
     "image": "images/img_montage/Chanardtrap.png",
-    "alt": "alt Chanardtrap - fnaf Five night at Freddy's",
-    
+    "alt": "alt Chanardtrap - fnaf Five night at Freddy's", 
+    "class": "",
     "titre": "Chanardtrap",
     "description": ""
   },
   {
     "image": "images/img_montage/Sunard.png",
-    "alt": "alt Susie - Deltarune",
-    
-    "titre": "Sunard",
+    "alt": "alt Susie - Deltarune", "titre": "Sunard",
     "description": ""
   },
   {
     "image": "images/img_montage/The Chatcher.png",
-    "alt": "alt The Snatcher - Hat in Time",
-    
+    "alt": "alt The Snatcher - Hat in Time", 
+    "class": "",
     "titre": "The Chatcher",
     "description": ""
   },
   {
     "image": "images/img_montage/Tochanard.png",
-    "alt": "alt Tora - Xenoblade Chronicles",
-    
+    "alt": "alt Tora - Xenoblade Chronicles", 
+    "class": "",
     "titre": "Toranard",
     "description": ""
   },
   {
     "image": "images/img_montage/Trigger Chappy.png",
-    "alt": "alt Trigger Happy - Skylanders",
-    
+    "alt": "alt Trigger Happy - Skylanders", 
+    "class": "",
     "titre": "Trigger Chappy",
     "description": ""
   },
   {
     "image": "images/img_montage/Untitled Chanard Game.png",
-    "alt": "alt - Untitled Goose Game",
-    
+    "alt": "alt - Untitled Goose Game", 
+    "class": "",
     "titre": "Untitled Chanard Game",
     "description": ""
   },
   {
     "image": "images/img_montage/Woody Woodcherper.png",
-    "alt": "alt - Woody Woodpecker",
-    
+    "alt": "alt - Woody Woodpecker", 
+    "class": "",
     "titre": "Woody Woodchecker",
     "description": ""
   },
   {
     "image": "images/img_montage/Zechyr.png",
-    "alt": "alt Zephyr - ???",
-    
+    "alt": "alt Zephyr - ???", 
+    "class": "",
     "titre": "Zechyr",
     "description": ""
   },
