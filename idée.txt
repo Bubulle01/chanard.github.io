@@ -1,9 +1,5 @@
-- bloquer le scroll quand une image est zoomé
-- proposer un bouton retour en plus au cas ou
-- proposer un bouton présentation qui va décallé le personnage sur le coté et offrir un texte. Si fond écran, griser l'image et mettre le texte dessus
-- proposer un bouton favori pour les images qui ajouteras une mini étoile en bas de l'image en général. 
-- Proposer un bouton header favori pour n'afficher que les favori
-- enregistrer les info favori dans les "cookies", genre dans la session. (ou sinon prévoir un système de compte)
+- proposer un bouton retour en plus au cas ou (le changer par la croix c'est ptet mieux)
+- ajouter un bouton mode noir/blanc pour le fond si on vois pas bien le perso
 - proposer une barre de recherche dans le header, qui permet d'écrire nom de perso ou catégorie, et n'affiche que cela
 - ajouter un bouton musique et penser a une playlist
 
