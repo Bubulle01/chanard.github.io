@@ -424,7 +424,7 @@ const data = [
     "description": ""
   },
   {
-    "image": "images/img_montage/chamon.png",
+    "image": "images/img_montage/Chamon.png",
     "alt": "alt Paimon - Genshin Impact", 
     "class": "",
     "titre": "Chamon",
@@ -1427,6 +1427,7 @@ const data = [
   {
     "image": "images/img_montage/Sunard.png",
     "alt": "alt Susie - Deltarune", 
+    "class": "",
     "titre": "Sunard",
     "description": ""
   },
