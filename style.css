@@ -608,3 +608,14 @@ hr::after {
     right: 10px;
     width: 100px;
 }
+
+
+/* Flou initial */
+.lazyload {
+    filter: blur(15px);
+}
+
+/* Image nette une fois chargée */
+.lazyloaded {
+    filter: blur(0);
+}
