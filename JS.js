@@ -25,6 +25,20 @@ const amiibo = document.getElementById("amiibo");
 
 const data = [
   {
+    "image": "images/img_montage/Chroa.png",
+    "alt": "alt Skroa - Les Légendaires",
+    "class": "",
+    "titre": "Chroa",
+    "description": ""
+  },
+  {
+    "image": "images/dessin_base/Ledrob.png",
+    "alt": "alt Ledrob",
+    "class": "",
+    "titre": "Ledrob",
+    "description": ""
+  },
+  {
     "image": "images/img_montage/Chanard scout.png",
     "alt": "alt Scout - Peak",
     "class": "",

@@ -289,6 +289,7 @@ body > nav {
     }
 
     .cotedroit {
+        font-size: 5vw!important;
         margin-top: -20px!important;
     }
 }
@@ -335,22 +336,21 @@ img.largeur.lowQuality  {
 }
 
 hr {
-  border: none;
-  border-top: 10px double #ffffff;
-  color: #ffffff;
-  overflow: visible;
-  text-align: center;
-  height: 40px;
-  margin-top: 50px;
-  margin: 60px 30px -10px;
-  filter: blur(2px);
+    border: none;
+    border-top: 10px double #ffffff;
+    color: #ffffff;
+    overflow: visible;
+    text-align: center;
+    height: 40px;
+    margin: 30px 30px -10px;
+    filter: blur(2px);
 }
 
 hr::after {
-  background: #fff;
-  padding: 0 4px;
-  position: relative;
-  top: -13px;
+    background: #fff;
+    padding: 0 4px;
+    position: relative;
+    top: -13px;
 }
 
 .fondcran {
@@ -390,9 +390,9 @@ hr::after {
 }
 
 .cotedroit {
-    float: right;
-    margin-right: 70px;
-    margin-top: -100px;
+    font-size: 3vw;
+    margin: 0px 5% -10px;
+    text-align: right!important;
 }
 
 
@@ -464,10 +464,10 @@ hr::after {
 @media (min-width: 675px) {
 
     .modal-content {
-        min-width: 25%;
-        max-width: 80%;
-        max-height: 80%;
-        min-height: 70%;
+        min-width: 25vw;
+        max-width: 80vw;
+        max-height: 80vh;
+        min-height: 70vh;
         margin-top: 5%;
         object-fit: contain;
         object-position: center;
@@ -500,7 +500,7 @@ hr::after {
 
     .modal.active .modal-content {
         transform: translateX(-22vw)!important;
-        max-width: 45vw;
+        max-width: 45vw!important;
     }
 
     .modal.active .description {
