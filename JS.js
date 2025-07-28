@@ -25,6 +25,13 @@ const amiibo = document.getElementById("amiibo");
 
 const data = [
   {
+    "image": "images/img_fond/Chine Sols.png",
+    "alt": "alt - Nine Sols",
+    "class": "",
+    "titre": "Chine Sols",
+    "description": ""
+  },
+  {
     "image": "images/img_montage/Chroa.png",
     "alt": "alt Skroa - Les Légendaires",
     "class": "",
