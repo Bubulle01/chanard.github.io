@@ -36,6 +36,7 @@ fetch('data.json')
             const img = document.createElement('img');
             img.src = `${item.image}`;
             img.alt = `${item.alt}`;
+            img.loading = "lazy";
         
             img.classList.add("smallThumb");
             if (img.src.includes("dessin_base/")) {
