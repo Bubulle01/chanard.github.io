@@ -34,7 +34,7 @@ fetch('data.json')
     .then(data => {
         data.forEach(item => {
             const img = document.createElement('img');
-            const lowQualityDataURL = canvas.toDataURL(`${item.image}`, 0.1);
+            const lowQualityDataURL = img.toDataURL(`${item.image}`, 0.1);
             img.dataSrc = `${item.image}`;
             img.src = lowQualityDataURL;
             img.alt = `${item.alt}`;
