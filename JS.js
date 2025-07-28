@@ -1,5 +1,8 @@
 var width = window.innerWidth;
 var height = window.innerHeight;
+const screenWidth = screen.width;
+const screenHeight = screen.height;
+
 let placementBase;
 const tailleTel = 675;
 
