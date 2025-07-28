@@ -34,11 +34,8 @@ fetch('data.json')
     .then(data => {
         data.forEach(item => {
             const img = document.createElement('img');
-            const lowQualityDataURL = img.toDataURL(`${item.image}`, 0.1);
-            img.dataSrc = `${item.image}`;
-            img.src = lowQualityDataURL;
+            img.src = `${item.image}`;
             img.alt = `${item.alt}`;
-            img.classList.add("lazyload");
         
             img.classList.add("smallThumb");
             if (img.src.includes("dessin_base/")) {
