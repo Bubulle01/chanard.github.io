@@ -2004,9 +2004,11 @@ function viderFavoris() {
 // Bloque le scroll
 function bloquerScroll() {
   document.body.style.overflow = "hidden";
+  document.documentElement.style.overflow = "hidden"; // pour <html>
 }
 
 // Réactive le scroll
 function debloquerScroll() {
   document.body.style.overflow = "";
+  document.documentElement.style.overflow = "";
 }
