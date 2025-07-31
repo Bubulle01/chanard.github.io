@@ -572,7 +572,6 @@ hr::after {
     }
 
     .elementButton > img {
-        width: clamp(0%, 30%, 100%);
         height: auto;
     }
 }
@@ -590,6 +589,7 @@ hr::after {
 
     & > img {
         margin: 0 clamp(5px, 1vw, 20px);
+        width: auto;
         height: auto;
 
         &:hover {
