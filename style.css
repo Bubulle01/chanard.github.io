@@ -466,8 +466,8 @@ hr::after {
 
     .modal-content {
         min-width: 25vw;
-        max-width: 80vw;
-        max-height: 80vh;
+        max-width: 90vw;
+        max-height: 90vh;
         min-height: 70vh;
         margin-top: 5%;
         object-fit: contain;
