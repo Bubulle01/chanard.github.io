@@ -1,13 +1,16 @@
-var width = window.innerWidth;
-var height = window.innerHeight;
+let width = window.innerWidth;
+let height = window.innerHeight;
 const screenWidth = screen.width;
 const screenHeight = screen.height;
+
+document.documentElement.style.overflowX = "hidden";
 
 let placementBase;
 const tailleTel = 675;
 
 const modal = document.getElementById("imageModal");
 const modalImage = document.getElementById("modalImage");
+modal.style.overflow = "hidden";
 
 const retour = document.getElementById("retour");
 const fav = document.getElementById("fav");
@@ -45,7 +48,7 @@ const data = [
   {
     "image": "images/img_montage/Chroa.png",
     "alt": "alt Skroa - Les Légendaires",
-    "class": "lowQuality",
+    "class": "",
     "titre": "Chroa",
     "description": ""
   },
@@ -1834,6 +1837,7 @@ thumbnails.forEach(smallThumb => {
         }
         else {
             description.style.transform = "translateX(0) translateY(20%)";
+            desc.style.maxHeight = "0vh";
             console.log("mode tel");
         }
 
@@ -1869,12 +1873,17 @@ thumbnails.forEach(smallThumb => {
                 }
                 else {
                     modal.classList.add("active");
+                    if (width < tailleTel) {
+                        desc.style.maxHeight = "20vh";
+                    }
                 }
             }
             else {
                 livret.src = "images/arrangement/livret.png";
                 modal.classList.remove("active");
                 modal.classList.remove("active2");
+                desc.style.maxHeight = "30vh";
+                desc.scrollTop = 0;
             }
         }
 
@@ -1899,6 +1908,8 @@ modal.addEventListener("click", (event) => {
         modal.classList.remove("active");
         modal.classList.remove("active2");
         modalImage.classList.remove("fondimg");
+        desc.style.maxHeight = "30vh";
+        desc.scrollTop = 0;
     }
 });
 
@@ -2010,12 +2021,12 @@ function viderFavoris() {
 
 // Bloque le scroll
 function bloquerScroll() {
-  document.body.style.overflow = "hidden";
-  document.documentElement.style.overflow = "hidden"; // pour <html>
+    document.body.style.overflowY = "hidden";
+    document.documentElement.style.overflowY = "hidden"; // pour <html>
 }
 
 // Réactive le scroll
 function debloquerScroll() {
-  document.body.style.overflow = "";
-  document.documentElement.style.overflow = "";
+    document.body.style.overflowY = "";
+    document.documentElement.style.overflowY = "";
 }
