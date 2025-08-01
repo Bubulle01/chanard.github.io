@@ -467,12 +467,19 @@ hr::after {
     .modal-content {
         min-width: 25vw;
         max-width: 90vw;
-        max-height: 90vh;
+        max-height: 85vh;
         min-height: 70vh;
         margin-top: 5%;
         object-fit: contain;
         object-position: center;
         transition: all 0.5s ease-in-out;
+    }
+
+    .fondimg {
+        min-width: 90vw!important;
+        max-width: 90vw!important;
+        max-height: 85vh!important;
+        min-height: 70vh!important;
     }
 
     .description {
@@ -586,11 +593,11 @@ hr::after {
     right: 0;
     z-index: 15;
     margin: 20px;
+    max-width: 20vw;
 
     & > img {
         margin: 0 clamp(5px, 1vw, 20px);
-        width: auto;
-        height: auto;
+        object-fit: contain;
 
         &:hover {
             transform: scale(1.10);
