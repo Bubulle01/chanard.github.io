@@ -476,10 +476,10 @@ hr::after {
     }
 
     .fondimg {
-        min-width: 75vw!important;
+        min-width: auto!important;
         max-width: 90vw!important;
         max-height: 85vh!important;
-        min-height: 70vh!important;
+        min-height: 85vh!important;
     }
 
     .description {
