@@ -476,7 +476,7 @@ hr::after {
     }
 
     .fondimg {
-        min-width: 90vw!important;
+        min-width: 75vw!important;
         max-width: 90vw!important;
         max-height: 85vh!important;
         min-height: 70vh!important;
