@@ -32,6 +32,13 @@ const amiibo = document.getElementById("amiibo");
 /* Démarre le JSON pour l'application automatisé des images */
 const data = [
   {
+    "image": "images/img_montage/Cholasaurus Toys.png",
+    "alt": "alt Kolasaurus Toys - Genshin Impact",
+    "class": "lowQuality",
+    "titre": "Cholasaurus Toys",
+    "description": ""
+  },
+  {
     "image": "images/img_fond/Djinn Chonic.png",
     "alt": "alt Djinn Tonic - Cassette Beast",
     "class": "",
@@ -1822,6 +1829,9 @@ thumbnails.forEach(smallThumb => {
             if (nomFichier == nameFichier(`${item.image}`)) {
                 title_desc.textContent = `${item.titre}`;
                 desc.textContent = `${item.description}`;
+                if (desc.textContent == "") {
+                  desc.style.margin = "0px";
+                }
             }
         });
 
@@ -1909,6 +1919,7 @@ modal.addEventListener("click", (event) => {
         modal.classList.remove("active2");
         modalImage.classList.remove("fondimg");
         desc.style.maxHeight = "30vh";
+        desc.style.margin = "clamp(0px, 0.5vw, 10px) clamp(0px, 0.5vw, 10px) clamp(0px, 2vw, 20px) clamp(0px, 0.5vw, 10px)";
         desc.scrollTop = 0;
     }
 });
