@@ -1835,13 +1835,13 @@ thumbnails.forEach(smallThumb => {
             }
         });
 
-        var width = window.innerWidth;
-        if ((!smallThumb.closest(".grid4")) && (width >= tailleTel)) {
+        if ((!smallThumb.closest(".grid4")) && (window.innerWidth >= tailleTel)) {
             description.style.transform = "translateX(0) translateY(10vh)";
             modalImage.classList.add("fondimg");
+            description.style.width = "57vw";
             console.log("mode fond pc");
         }
-        else if ((smallThumb.closest(".grid4")) && (width >= tailleTel)) {
+        else if ((smallThumb.closest(".grid4")) && (window.innerWidth >= tailleTel)) {
             description.style.transform = "translateX(30vw) translateY(0)";
             console.log("mode dessin pc");
         }
@@ -1849,6 +1849,13 @@ thumbnails.forEach(smallThumb => {
             description.style.transform = "translateX(0) translateY(20%)";
             desc.style.maxHeight = "0vh";
             console.log("mode tel");
+        }
+
+        // agrandis titre si trop petit
+        console.log(title_desc.clientWidth);
+        console.log(description.clientWidth);
+        if (title_desc.clientWidth < description.clientWidth) {
+            title_desc.style.fontSize = "8vw !important;";
         }
 
         console.log("thumb clicked");
@@ -1877,13 +1884,12 @@ thumbnails.forEach(smallThumb => {
             if (chemin.endsWith("images/arrangement/livret.png")) {
                 livret.src = "images/arrangement/livret2.png";
 
-                var width = window.innerWidth;
-                if ((!smallThumb.closest(".grid4")) && (width >= tailleTel)) {
+                if ((!smallThumb.closest(".grid4")) && (window.innerWidth >= tailleTel)) {
                     modal.classList.add("active2");
                 }
                 else {
                     modal.classList.add("active");
-                    if (width < tailleTel) {
+                    if (window.innerWidth < tailleTel) {
                         desc.style.maxHeight = "20vh";
                     }
                 }
@@ -1921,6 +1927,12 @@ modal.addEventListener("click", (event) => {
         desc.style.maxHeight = "30vh";
         desc.style.margin = "clamp(0px, 0.5vw, 10px) clamp(0px, 0.5vw, 10px) clamp(0px, 2vw, 20px) clamp(0px, 0.5vw, 10px)";
         desc.scrollTop = 0;
+        if (window.innerWidth >= tailleTel) {
+          description.style.width = "45vw";
+        }
+        else {
+          description.style.width = "80vw";
+        }
     }
 });
 
