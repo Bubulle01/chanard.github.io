@@ -1524,8 +1524,8 @@ const data = [
   },
   {
     "image": "images/img_fond/Chark Knight.png",
-    "alt": "alt Dark Knight - Deltarune",
-    "titre": "Chark Knight",
+    "alt": "alt Roaring Knight - Deltarune",
+    "titre": "Roaring Cha. Knight",
     "description": ""
   },
   {
