@@ -32,6 +32,13 @@ const amiibo = document.getElementById("amiibo");
 /* Démarre le JSON pour l'application automatisé des images */
 const data = [
   {
+    "image": "images/img_montage/Chalula.png",
+    "alt": "alt Alula - One Shot",
+    "class": "",
+    "titre": "Chalula",
+    "description": ""
+  },
+  {
     "image": "images/img_montage/Cholasaurus Toys.png",
     "alt": "alt Kolasaurus Toys - Genshin Impact",
     "class": "lowQuality",
