@@ -362,9 +362,9 @@ const data = [
   },
   {
     "image": "images/img_montage/Chacaw.png",
-    "alt": "alt Chacaw - ???", 
+    "alt": "alt Martlet - Undertale Yellow", 
     "class": "",
-    "titre": "Chacaw",
+    "titre": "Chartlet",
     "description": ""
   },
   {
