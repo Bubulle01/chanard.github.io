@@ -22,6 +22,7 @@
     --res : calc(0.01 * 10vmin);
     --colorFondModal : rgba(0, 0, 0, 0.9);
     --colorBackSecure : rgba(255, 255, 255, 0.137);
+    --shadowContour : rgba(255, 255, 255, 0.568);
 }
 
 html {
@@ -486,6 +487,7 @@ desc::-webkit-scrollbar {
         object-fit: contain;
         object-position: center;
         transition: all 0.5s ease-in-out;
+        filter: drop-shadow(0 0 10px var(--shadowContour));
     }
 
     .fondimg {
@@ -558,6 +560,7 @@ desc::-webkit-scrollbar {
         object-fit: contain;
         object-position: center;
         transition: all 0.5s ease-in-out;
+        filter: drop-shadow(0 0 10px var(--shadowContour));
     }
 
     .description {
