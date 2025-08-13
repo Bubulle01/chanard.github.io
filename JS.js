@@ -32,6 +32,13 @@ const amiibo = document.getElementById("amiibo");
 /* Démarre le JSON pour l'application automatisé des images */
 const data = [
   {
+    "image": "images/dessin_base/C)-(4.png",
+    "alt": "alt C)-(4",
+    "class": "",
+    "titre": "C)-(4",
+    "description": ""
+  },
+  {
     "image": "images/img_montage/Chalula.png",
     "alt": "alt Alula - One Shot",
     "class": "",
