@@ -32,6 +32,13 @@ const amiibo = document.getElementById("amiibo");
 /* Démarre le JSON pour l'application automatisé des images */
 const data = [
   {
+    "image": "images/img_fond/Kpop Demon Chunter.png",
+    "alt": "alt Kpop Demon Hunter",
+    "class": "",
+    "titre": "Kpop Demon Chunter",
+    "description": ""
+  },
+  {
     "image": "images/dessin_base/chopi chaupe.png",
     "alt": "alt chopi chaupe",
     "class": "lowQuality",

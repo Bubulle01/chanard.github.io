@@ -421,6 +421,7 @@ hr::after {
     width: 100%;
     height: 100%;
     background-color: var(--colorFondModal);
+    transition: all 0.5s ease-in-out;
     justify-content: center;
     align-items: center;
     z-index: 11;
@@ -534,12 +535,14 @@ desc::-webkit-scrollbar {
 
     .modal.active2 .modal-content {
         filter: brightness(30%);
+        transition: all 0.5s ease-in-out;
     }
 
     .modal.active2 .description {
         pointer-events: all;
         opacity: 1;
         transform: translateX(0) translateY(10%)!important;
+        transition: all 0.5s ease-in-out;
     }
 
 
