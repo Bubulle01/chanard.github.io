@@ -41,7 +41,7 @@ const data = [
   {
     "image": "images/img_montage/Choazo.png",
     "alt": "alt Oazo - Kirby",
-    "class": "",
+    "class": "lowQuality",
     "titre": "Choazo",
     "description": ""
   },
