@@ -32,6 +32,20 @@ const amiibo = document.getElementById("amiibo");
 /* Démarre le JSON pour l'application automatisé des images */
 const data = [
   {
+    "image": "images/img_montage/Choumang.png",
+    "alt": "alt Goumang - Nine Sols",
+    "class": "",
+    "titre": "Choumang",
+    "description": ""
+  },
+  {
+    "image": "images/img_montage/Choazo.png",
+    "alt": "alt Oazo - Kirby",
+    "class": "",
+    "titre": "Choazo",
+    "description": ""
+  },
+  {
     "image": "images/dessin_base/Niruhtra.png",
     "alt": "alt Niruhtra",
     "class": "",
@@ -134,7 +148,7 @@ const data = [
     "alt": "alt Chanard et son fidèle Panneau",
     "class": "",
     "titre": "Chanard et son fidèle Panneau",
-    "description": "123456789 123456789 123456789 123456789 123456789 123456789 123456789 \n 123456789 123456789 123456789 \n 123456789 123456789 123456789 \n 123456789 123456789 123456789 \n 123456789 123456789 123456789 \n 123456789 123456789 123456789 \n 123456789 123456789 123456789 \n 123456789 123456789 123456789 \n 123456789 123456789 123456789 \n 123456789 123456789 123456789 "
+    "description": ""
   },
   {
     "image": "images/dessin_base/Protochanard.png",
