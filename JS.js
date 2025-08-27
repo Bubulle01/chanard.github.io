@@ -32,6 +32,13 @@ const amiibo = document.getElementById("amiibo");
 /* Démarre le JSON pour l'application automatisé des images */
 const data = [
   {
+    "image": "images/img_fond/Paysage Flow.png",
+    "alt": "alt Flow",
+    "class": "",
+    "titre": "Paysage Flow",
+    "description": ""
+  },
+  {
     "image": "images/img_montage/Apocrowlyps.png",
     "alt": "alt Doom - Bad Guys",
     "class": "",
