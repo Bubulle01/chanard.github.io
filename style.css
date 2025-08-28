@@ -534,7 +534,7 @@ desc::-webkit-scrollbar {
     }
 
     .modal.active2 .modal-content {
-        filter: brightness(30%);
+        filter: brightness(30%) drop-shadow(0 0 10px var(--shadowContour));
         transition: all 0.5s ease-in-out;
     }
 
