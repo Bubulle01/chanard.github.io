@@ -32,6 +32,13 @@ const amiibo = document.getElementById("amiibo");
 /* Démarre le JSON pour l'application automatisé des images */
 const data = [
   {
+    "image": "images/img_fond/NutNut.png",
+    "alt": "alt Nut Nut meme",
+    "class": "",
+    "titre": "Nut Nut",
+    "description": ""
+  },
+  {
     "image": "images/img_montage/AgentBlack.png",
     "alt": "alt Agent Black - Iconoblasts",
     "class": "",
