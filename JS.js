@@ -60,7 +60,7 @@ const data = [
     "description": ""
   },
   {
-    "image": "images/img_montage/AgentBlack.png",
+    "image": "images/img_montage/agentBlack.png",
     "alt": "alt Agent Black - Iconoblasts",
     "class": "",
     "titre": "Agent Crow",

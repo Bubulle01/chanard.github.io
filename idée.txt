@@ -1,5 +1,4 @@
-- proposer un bouton retour en plus au cas ou (le changer par la croix c'est ptet mieux)
-- ajouter un bouton mode noir/blanc pour le fond si on vois pas bien le perso
+- positionner les bouton d'action en bas en mode telephone
 - proposer une barre de recherche dans le header, qui permet d'écrire nom de perso ou catégorie, et n'affiche que cela
 - ajouter un bouton musique et penser a une playlist
 
