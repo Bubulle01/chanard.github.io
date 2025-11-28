@@ -32,6 +32,13 @@ const amiibo = document.getElementById("amiibo");
 /* Démarre le JSON pour l'application automatisé des images */
 const data = [
   {
+    "image": "images/dessin_base/Chanard_got_real.png",
+    "alt": "alt Chanard got real",
+    "class": "",
+    "titre": "Chanard Got Real",
+    "description": ""
+  },
+  {
     "image": "images/img_montage/GreenChage.png",
     "alt": "alt Green Mage - Everhood",
     "class": "",
