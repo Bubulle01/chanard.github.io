@@ -32,6 +32,13 @@ const amiibo = document.getElementById("amiibo");
 /* Démarre le JSON pour l'application automatisé des images */
 const data = [
   {
+    "image": "images/img_montage/GreenChage.png",
+    "alt": "alt Green Mage - Everhood",
+    "class": "",
+    "titre": "Green Chage",
+    "description": ""
+  },
+  {
     "image": "images/img_montage/Cholpain.png",
     "alt": "alt Volpain - Fortales",
     "class": "",
